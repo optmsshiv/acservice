@@ -1,0 +1,17 @@
+.service-card img,
+.team-card img {
+  border-radius: 1rem;
+}
+
+.service-card,
+.team-card {
+  min-height: 100%;
+}
+
+.pricing-card {
+  padding: 2rem;
+}
+
+.team-card h3 {
+  margin-top: 1rem;
+}

@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .container {
+    width: min(100%, 100% - 1.5rem);
+  }
+
+  .page-head {
+    padding-top: 3rem;
+  }
+
+  .section {
+    padding: 2.5rem 0;
+  }
+
+  .site-header {
+    padding: 0 1rem;
+  }
+
+  .split-grid,
+  .cards-grid,
+  .pricing-grid,
+  .team-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

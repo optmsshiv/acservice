@@ -1,0 +1,12 @@
+.site-footer {
+  padding: 2rem 0;
+}
+
+.footer-inner {
+  gap: 1rem;
+}
+
+.brand-block p {
+  margin-top: 0.75rem;
+  max-width: 24rem;
+}

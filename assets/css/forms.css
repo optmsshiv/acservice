@@ -1,0 +1,15 @@
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.contact-form label,
+.booking-form label {
+  display: block;
+}
+
+.contact-form button,
+.booking-form button {
+  width: 100%;
+}
