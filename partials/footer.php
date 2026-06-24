@@ -28,6 +28,8 @@ $current_year = date('Y');
           <!-- TRUST BADGES -->
           <div class="footer-badges">
             <div class="footer-badge"><i class="fas fa-user-check"></i> Verified Service</div>
+            <div class="footer-badge"><i class="fas fa-shield-alt"></i> Insured Work</div>
+            <div class="footer-badge"><i class="fas fa-star"></i> 4.8★ Rated</div>
           </div>
 
           <!-- SOCIAL LINKS -->
@@ -90,7 +92,7 @@ $current_year = date('Y');
             </li>
             <li>
               <i class="fas fa-map-marker-alt"></i>
-              <span></span>
+              <span>Delhi NCR, India</span>
             </li>
           </ul>
 
@@ -133,13 +135,14 @@ $current_year = date('Y');
 <div class="float-btns" aria-label="Quick contact buttons">
 
   <!-- WhatsApp (desktop + mobile) -->
-  <a href="https://wa.me/917827464409?text=Hi%20EZAC%2C%20I%20need%20home%20service"
+  <a href="https://wa.me/917827464409?text=Hi+EZAC%2C+I+need+home+service"
      class="float-btn float-wa"
      target="_blank"
      rel="noopener"
      aria-label="Chat on WhatsApp"
      title="Chat on WhatsApp">
     <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    <span class="float-wa-label">Chat with us</span>
   </a>
 
   <!-- Call Now (mobile only — shown via CSS) -->
