@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+# Block sensitive directories
+Disallow: /partials/
+Disallow: /assets/js/
+Disallow: /*.sql$
+Disallow: /*.log$
+
+# Sitemap
+Sitemap: https://ezacservice.in/sitemap.xml
