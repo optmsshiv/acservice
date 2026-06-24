@@ -74,17 +74,17 @@ $nav_links = [
 ════════════════════════════════════════════ -->
 <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Navigation menu" aria-hidden="true">
 
-  <!-- Close Button -->
-  <button class="mobile-close"
-          id="mobileClose"
-          aria-label="Close navigation menu">
-    <i class="fas fa-times" aria-hidden="true"></i>
-  </button>
-
-  <!-- Mobile Logo -->
-  <div class="mobile-logo">
-    <div class="logo-icon"><i class="fas fa-bolt"></i></div>
-    <span>EZAC<strong>Service</strong></span>
+  <!-- Mobile Menu Header -->
+  <div class="mobile-menu-header">
+    <a href="/" class="mobile-logo">
+      <div class="logo-icon"><i class="fas fa-bolt"></i></div>
+      <span>EZAC<strong>Service</strong></span>
+    </a>
+    <button class="mobile-close"
+            id="mobileClose"
+            aria-label="Close navigation menu">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
   </div>
 
   <!-- Mobile Nav Links -->
@@ -96,15 +96,14 @@ $nav_links = [
       <i class="fas fa-tools" aria-hidden="true"></i> Services
     </a>
 
-    <!-- Services Sub-links -->
+    <!-- Services Sub-links — always visible -->
     <div class="mobile-sublinks">
-      <a href="/service-ac.php"><i class="fas fa-snowflake"></i> AC Repair & Install</a>
-      <a href="/services.php#appliances"><i class="fas fa-blender"></i> Appliance Repair</a>
-      <a href="/services.php#electrical"><i class="fas fa-plug"></i> Electrical</a>
-      <a href="/services.php#plumbing"><i class="fas fa-faucet"></i> Plumbing</a>
+      <a href="/service-ac.php"><i class="fas fa-snowflake"></i> AC Repair &amp; Install</a>
+      <a href="/services.php#gas-refill"><i class="fas fa-gas-pump"></i> AC Gas Refill</a>
+      <a href="/services.php#ac-service"><i class="fas fa-wind"></i> AC Deep Cleaning</a>
+      <a href="/services.php#ac-installation"><i class="fas fa-hammer"></i> AC Installation</a>
     </div>
 
-    
     <a href="/about.php" class="mobile-link <?php echo ($current_page==='about') ? 'active' : ''; ?>">
       <i class="fas fa-info-circle" aria-hidden="true"></i> About Us
     </a>
@@ -121,7 +120,7 @@ $nav_links = [
     <a href="tel:+917827464409" class="btn btn-outline" style="width:100%;justify-content:center">
       <i class="fas fa-phone"></i> Call +91-782-746-4409
     </a>
-    <a href="https://wa.me/917827464409?text=Hi%20EZAC%2C%20I%20need%20home%20service"
+    <a href="https://wa.me/917827464409?text=Hi+EZAC%2C+I+need+home+service"
        class="btn btn-whatsapp"
        target="_blank" rel="noopener">
       <i class="fab fa-whatsapp"></i> Chat on WhatsApp
@@ -131,7 +130,7 @@ $nav_links = [
   <!-- Mobile Contact Info -->
   <div class="mobile-contact-info">
     <div><i class="fas fa-clock"></i> Available 7 AM – 10 PM · All 7 Days</div>
-    <div><i class="fas fa-map-marker-alt"></i> Serving Bihar, Jharkhand & UP</div>
+    <div><i class="fas fa-map-marker-alt"></i> Serving Delhi NCR</div>
   </div>
 
 </div><!-- /mobile-menu -->

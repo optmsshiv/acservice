@@ -5,8 +5,8 @@
    ============================================================ */
 
 $current_page     = 'home';
-$page_title       = 'EZAC Service — AC Repair, Installation & Home Services in Delhi NCR';
-$page_description = 'Professional AC repair, installation, gas refilling and home appliance services at your doorstep. Certified technicians, 90-day warranty, transparent pricing across Delhi NCR.';
+$page_title       = 'EZAC Service — AC Repair, Home Appliance & Plumbing Services in Bihar';
+$page_description = 'Professional AC repair, installation, refrigerator, washing machine, electrical and plumbing services at your doorstep. Certified technicians, 90-day warranty, transparent pricing across Bihar, Jharkhand & UP.';
 $page_canonical   = 'https://ezacservice.in/';
 
 include 'partials/head.php';
@@ -298,7 +298,7 @@ include 'partials/navbar.php';
                     EZAC Service By The Numbers
                 </div>
                 <p style="color:rgba(255,255,255,0.75);font-size:var(--text-base);margin-bottom:var(--space-32)">
-                    A decade of trusted home services across Delhi NCR.
+                    A decade of trusted home services across New Delhi &amp; NCR.
                 </p>
                 <div class="stats-grid">
                     <div class="stat-item">
@@ -320,9 +320,10 @@ include 'partials/navbar.php';
                 </div>
                 <div
                     style="background:rgba(255,255,255,0.12);border-radius:var(--radius-md);padding:var(--space-20);text-align:center;margin-top:var(--space-24)">
-                    <div style="font-size:var(--text-sm);opacity:0.8;margin-bottom:6px">Serving 5 key cities across Delhi NCR</div>
+                    <div style="font-size:var(--text-sm);opacity:0.8;margin-bottom:6px">Serving 10+ cities across 3
+                        states</div>
                     <div style="font-weight:700;font-size:var(--text-base)">
-                        Delhi · Noida · Gurgaon · Faridabad · Ghaziabad
+                        New Delhi · NCR & more
                     </div>
                 </div>
             </div>
@@ -697,7 +698,7 @@ include 'partials/navbar.php';
                 <a href="/book.php" class="btn btn-white btn-lg">
                     <i class="fas fa-calendar-check"></i> Book Now
                 </a>
-                <a href="tel:+917827464409" class="btn btn-white-outline btn-lg">
+                <a href="tel:+918003001234" class="btn btn-white-outline btn-lg">
                     <i class="fas fa-phone"></i> Call Us
                 </a>
             </div>

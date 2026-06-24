@@ -5,8 +5,8 @@
    ============================================================ */
 
 $current_page     = 'contact';
-$page_title       = 'Contact Us — EZAC Service | AC Repair & Service in Bihar';
-$page_description = 'Contact EZAC Service for AC repair, installation, gas refilling and maintenance. Call, WhatsApp or fill our form. Available 7 AM to 10 PM, all 7 days.';
+$page_title       = 'Contact Us — EZAC Service | AC Repair & Service in Delhi NCR';
+$page_description = 'Contact EZAC Service for AC repair, installation, gas refilling and maintenance. Call, WhatsApp or fill our form. Available 7 AM to 10 PM, all 7 days across Delhi NCR.';
 $page_canonical   = 'https://ezacservice.in/contact.php';
 
 include 'partials/head.php';
@@ -42,17 +42,17 @@ include 'partials/navbar.php';
   <div class="container">
     <div class="contact-quick-grid">
 
-      <a href="tel:+918003001234" class="contact-quick-card blue">
+      <a href="tel:+917827464409" class="contact-quick-card blue">
         <div class="cq-icon"><i class="fas fa-phone"></i></div>
         <div class="cq-text">
           <strong>Call Us</strong>
-          <span>+91-800-300-1234</span>
+          <span>+91-782-746-4409</span>
           <small>7 AM – 10 PM · All Days</small>
         </div>
         <i class="fas fa-arrow-right cq-arrow"></i>
       </a>
 
-      <a href="https://wa.me/918003001234?text=Hi%20EZAC%2C%20I%20need%20AC%20service" class="contact-quick-card green"
+      <a href="https://wa.me/917827464409?text=Hi%20EZAC%2C%20I%20need%20AC%20service" class="contact-quick-card green"
         target="_blank" rel="noopener">
         <div class="cq-icon"><i class="fab fa-whatsapp"></i></div>
         <div class="cq-text">
@@ -112,7 +112,7 @@ include 'partials/navbar.php';
           </div>
           <div class="contact-info-text">
             <h4>Phone</h4>
-            <a href="tel:+918003001234">+91-800-300-1234</a>
+            <a href="tel:+917827464409">+91-782-746-4409</a>
             <p>7 AM – 10 PM · All 7 Days</p>
           </div>
         </div>
@@ -123,8 +123,8 @@ include 'partials/navbar.php';
           </div>
           <div class="contact-info-text">
             <h4>WhatsApp</h4>
-            <a href="https://wa.me/918003001234" target="_blank" rel="noopener"
-              style="color:var(--green-dark)">+91-800-300-1234</a>
+            <a href="https://wa.me/917827464409" target="_blank" rel="noopener"
+              style="color:var(--green-dark)">+91-782-746-4409</a>
             <p>Send us photos of your AC issue for faster help</p>
           </div>
         </div>
@@ -205,7 +205,7 @@ include 'partials/navbar.php';
             Thank you for reaching out. Our team will get back to you
             within <strong>4 hours</strong>.<br><br>
             For urgent service needs, call us directly at
-            <strong><a href="tel:+918003001234">+91-800-300-1234</a></strong>.
+            <strong><a href="tel:+917827464409">+91-782-746-4409</a></strong>.
           </p>
           <a href="/" class="btn btn-primary" style="margin-top:var(--space-20)">
             Back to Home
@@ -269,7 +269,7 @@ include 'partials/navbar.php';
             <label for="c-city">Your City</label>
             <div class="input-group">
               <i class="fas fa-map-marker-alt input-icon"></i>
-              <input type="text" id="c-city" name="city" placeholder="e.g. Patna, Madhepura, Bhagalpur">
+              <input type="text" id="c-city" name="city" placeholder="e.g. Delhi, Noida, Gurgaon, Faridabad">
             </div>
           </div>
 
@@ -339,10 +339,10 @@ include 'partials/navbar.php';
         <p>Don't wait for a reply — call us now for same-day service.</p>
       </div>
       <div class="cta-banner-actions">
-        <a href="tel:+918003001234" class="btn btn-white btn-lg">
-          <i class="fas fa-phone"></i> Call +91-800-300-1234
+        <a href="tel:+917827464409" class="btn btn-white btn-lg">
+          <i class="fas fa-phone"></i> Call +91-782-746-4409
         </a>
-        <a href="https://wa.me/918003001234" target="_blank" rel="noopener" class="btn btn-white-outline btn-lg">
+        <a href="https://wa.me/917827464409" target="_blank" rel="noopener" class="btn btn-white-outline btn-lg">
           <i class="fab fa-whatsapp"></i> WhatsApp Us
         </a>
       </div>

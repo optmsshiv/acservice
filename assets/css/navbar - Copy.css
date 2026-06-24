@@ -309,12 +309,6 @@
     border-bottom: 1px solid var(--gray-100);
 }
 
-/* Services link — square bottom corners so sublinks sit flush */
-.mobile-link:has(+ .mobile-sublinks) {
-    border-radius: var(--radius-md) var(--radius-md) 0 0;
-    border-bottom: none;
-}
-
 .mobile-link i {
     font-size: 17px;
     color: var(--blue);
@@ -332,17 +326,15 @@
     font-weight: 700;
 }
 
-/* Mobile Sub-links — always visible, flush under Services */
+/* Mobile Sub-links */
 .mobile-sublinks {
     display: flex;
     flex-direction: column;
     gap: 2px;
-    padding: var(--space-4, 4px) 0 var(--space-12) var(--space-32);
+    padding: var(--space-8) 0 var(--space-8) var(--space-32);
     background: var(--gray-50);
-    border-radius: 0 0 var(--radius-md) var(--radius-md);
-    margin: -4px 0 6px;
-    border-left: 3px solid var(--blue);
-    border-bottom: 1px solid var(--gray-100);
+    border-radius: var(--radius-md);
+    margin: 4px 0;
 }
 
 .mobile-sublinks a {
