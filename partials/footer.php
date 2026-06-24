@@ -23,7 +23,7 @@ $current_year = date('Y');
             <div class="logo-icon"><i class="fas fa-bolt"></i></div>
             <span>EZAC<strong>Service</strong></span>
           </a>
-          <p>Your trusted home service partner. Expert technicians for AC repair, appliances, electrical & plumbing — available 7 days a week across Bihar, Jharkhand & UP.</p>
+          <p>Your trusted home service partner. Expert technicians for AC repair, appliances, electrical & plumbing — available 7 days a week across Delhi NCR.</p>
 
           <!-- TRUST BADGES -->
           <div class="footer-badges">
@@ -90,7 +90,7 @@ $current_year = date('Y');
             </li>
             <li>
               <i class="fas fa-map-marker-alt"></i>
-              <span>Station Road, Madhepura, Bihar – 852113</span>
+              <span></span>
             </li>
           </ul>
 

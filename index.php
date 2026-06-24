@@ -43,20 +43,22 @@ include 'partials/navbar.php';
                     <a href="/book.php" class="btn btn-white btn-lg">
                         <i class="fas fa-calendar-check"></i> Book a Service
                     </a>
-                    <a href="tel:+918003001234" class="btn btn-white-outline btn-lg">
-                        <i class="fas fa-phone"></i> +91-800-300-1234
+                    <a href="tel:+917827464409" class="btn btn-white-outline btn-lg">
+                        <i class="fas fa-phone"></i> +91-782-746-4409
+
+
                     </a>
                 </div>
 
                 <!-- Hero Stats -->
                 <div class="hero-stats">
                     <div class="hero-stat">
-                        <div class="hero-stat-num">50K+</div>
+                        <div class="hero-stat-num">5K+</div>
                         <div class="hero-stat-lbl">Happy Customers</div>
                     </div>
                     <div class="hero-stat-divider"></div>
                     <div class="hero-stat">
-                        <div class="hero-stat-num">200+</div>
+                        <div class="hero-stat-num">20+</div>
                         <div class="hero-stat-lbl">Expert Technicians</div>
                     </div>
                     <div class="hero-stat-divider"></div>
@@ -95,20 +97,17 @@ include 'partials/navbar.php';
                     </a>
                     <a href="/services.php" class="service-quick-btn">
                         <i class="fas fa-temperature-low"></i>
-                        <span>Refrigerator</span>
+                        <span>Remote / thermostat issues</span>
                     </a>
                     <a href="/services.php" class="service-quick-btn">
                         <i class="fas fa-sync-alt"></i>
-                        <span>Washing Machine</span>
+                        <span>Compressor issue</span>
                     </a>
                     <a href="/services.php" class="service-quick-btn">
                         <i class="fas fa-plug"></i>
                         <span>Electrical</span>
                     </a>
-                    <a href="/services.php" class="service-quick-btn">
-                        <i class="fas fa-faucet"></i>
-                        <span>Plumbing</span>
-                    </a>
+                    
                     <a href="/services.php" class="service-quick-btn">
                         <i class="fas fa-ellipsis-h"></i>
                         <span>All Services</span>
@@ -565,7 +564,7 @@ include 'partials/navbar.php';
 
 <!-- ══════════════════════════════════════════
      PRICING PREVIEW
-════════════════════════════════════════════ -->
+════════════════════════════════════════════ 
 <section class="section section-gray" id="pricing-preview">
     <div class="container">
 
@@ -579,7 +578,7 @@ include 'partials/navbar.php';
 
         <div class="pricing-grid">
 
-            <!-- BASIC -->
+            <!-- BASIC 
             <div class="pricing-card">
                 <div class="pricing-plan">One-Time</div>
                 <div class="pricing-name">Basic Service</div>
@@ -601,7 +600,7 @@ include 'partials/navbar.php';
                 </div>
             </div>
 
-            <!-- POPULAR -->
+            <!-- POPULAR 
             <div class="pricing-card featured">
                 <div class="pricing-badge">⭐ Most Popular</div>
                 <div class="pricing-plan">One-Time</div>
@@ -624,7 +623,7 @@ include 'partials/navbar.php';
                 </div>
             </div>
 
-            <!-- AMC -->
+            <!-- AMC 
             <div class="pricing-card">
                 <div class="pricing-plan">Annual Plan</div>
                 <div class="pricing-name">AMC Plan</div>
@@ -646,7 +645,7 @@ include 'partials/navbar.php';
                 </div>
             </div>
 
-        </div><!-- /pricing-grid -->
+        </div><!-- /pricing-grid 
 
         <div class="text-center" style="margin-top:var(--space-32)">
             <a href="/pricing.php" class="btn btn-ghost">
@@ -656,6 +655,8 @@ include 'partials/navbar.php';
 
     </div>
 </section>
+-->
+
 
 <!-- ══════════════════════════════════════════
      FAQ SECTION
