@@ -92,12 +92,13 @@ $nav_links = [
     <a href="/" class="mobile-link <?php echo ($current_page==='home') ? 'active' : ''; ?>">
       <i class="fas fa-home" aria-hidden="true"></i> Home
     </a>
-    <a href="/services.php" class="mobile-link <?php echo ($current_page==='services') ? 'active' : ''; ?>">
+    <a href="/services.php" class="mobile-link mobile-link-toggle <?php echo ($current_page==='services') ? 'active' : ''; ?>" id="servicesToggle">
       <i class="fas fa-tools" aria-hidden="true"></i> Services
+      <i class="fas fa-chevron-down mobile-toggle-arrow" aria-hidden="true"></i>
     </a>
 
-    <!-- Services Sub-links — always visible -->
-    <div class="mobile-sublinks">
+    <!-- Services Sub-links — hidden by default, toggled by JS -->
+    <div class="mobile-sublinks" id="servicesSublinks" style="display:none">
       <a href="/service-ac.php"><i class="fas fa-snowflake"></i> AC Repair &amp; Install</a>
       <a href="/services.php#gas-refill"><i class="fas fa-gas-pump"></i> AC Gas Refill</a>
       <a href="/services.php#ac-service"><i class="fas fa-wind"></i> AC Deep Cleaning</a>
@@ -137,3 +138,18 @@ $nav_links = [
 
 <!-- Overlay backdrop for mobile menu -->
 <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var toggle = document.getElementById('servicesToggle');
+  var sublinks = document.getElementById('servicesSublinks');
+  if (toggle && sublinks) {
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      var isOpen = sublinks.style.display !== 'none';
+      sublinks.style.display = isOpen ? 'none' : 'flex';
+      toggle.classList.toggle('open', !isOpen);
+    });
+  }
+})();
+</script>
