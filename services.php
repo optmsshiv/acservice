@@ -6,7 +6,7 @@
 
 $current_page     = 'services';
 $page_title       = 'AC Services — Repair, Gas Refill & Installation | EZAC Service';
-$page_description = 'Professional AC services in Bihar — AC repair, gas refilling, installation for window and split ACs. All brands covered. Certified technicians, 90-day warranty, transparent pricing.';
+$page_description = 'Professional AC services in Bihar — AC repair, gas refilling, installation for window and split ACs. All brands covered. Certified technicians, same-day service.';
 $page_canonical   = 'https://ezacservice.in/services.php';
 
 include 'partials/head.php';
@@ -33,8 +33,7 @@ include 'partials/navbar.php';
                 <h1>Expert AC Services<br>for Window &amp; Split ACs</h1>
                 <p>
                     Certified technicians for all AC brands — repair, gas refilling,
-                    and installation. Same-day service, 90-day warranty,
-                    transparent pricing across Bihar.
+                    and installation. Same-day service across Bihar.
                 </p>
                 <div class="page-hero-actions">
                     <a href="/book.php" class="btn btn-primary btn-lg">
@@ -46,15 +45,6 @@ include 'partials/navbar.php';
                 </div>
             </div>
             <div class="page-hero-badges">
-                        <!-- Hero Badges 
-                <div class="hero-badge-item">
-                    <i class="fas fa-shield-alt"></i>
-                    <div>
-                        <strong>90-Day Warranty</strong>
-                        <span>On all repair services</span>
-                    </div>
-                </div> -->
-
                 <div class="hero-badge-item">
                     <i class="fas fa-clock"></i>
                     <div>
@@ -63,17 +53,17 @@ include 'partials/navbar.php';
                     </div>
                 </div>
                 <div class="hero-badge-item">
-                    <i class="fas fa-rupee-sign"></i>
-                    <div>
-                        <strong>Fixed Pricing</strong>
-                        <span>No hidden charges</span>
-                    </div>
-                </div>
-                <div class="hero-badge-item">
                     <i class="fas fa-user-check"></i>
                     <div>
                         <strong>Verified Technicians</strong>
                         <span>Background-checked team</span>
+                    </div>
+                </div>
+                <div class="hero-badge-item">
+                    <i class="fas fa-tools"></i>
+                    <div>
+                        <strong>All Brands Covered</strong>
+                        <span>LG, Samsung, Voltas &amp; more</span>
                     </div>
                 </div>
             </div>
@@ -111,7 +101,7 @@ include 'partials/navbar.php';
                     <li><i class="fas fa-check-circle"></i> Refrigerant pressure check</li>
                     <li><i class="fas fa-check-circle"></i> Electrical connections check</li>
                     <li><i class="fas fa-check-circle"></i> Cooling performance test</li>
-                    <li><i class="fas fa-check-circle"></i> 30-day post-service warranty</li>
+                    <li><i class="fas fa-check-circle"></i> Service summary &amp; technician notes</li>
                 </ul>
 
                 <div class="ac-type-chips">
@@ -121,26 +111,16 @@ include 'partials/navbar.php';
                 </div>
             </div>
 
-            <!-- Right: Price Card + Booking -->
+            <!-- Right: Booking Card -->
             <div class="service-detail-aside">
                 <div class="service-price-card">
                     <div class="spc-header">
                         <i class="fas fa-wind"></i> AC Servicing
                     </div>
                     <div class="spc-body">
-                        <div class="spc-price-row">
-                            <div>
-                                <div class="spc-label">Split AC Service</div>
-                                <div class="spc-price">₹499 <span>onwards</span></div>
-                            </div>
-                            <div>
-                                <div class="spc-label">Window AC Service</div>
-                                <div class="spc-price">₹399 <span>onwards</span></div>
-                            </div>
-                        </div>
                         <div class="spc-note">
                             <i class="fas fa-info-circle"></i>
-                            Final price confirmed before work begins. Parts extra if needed.
+                            Technician inspects your AC and confirms everything with you before work begins.
                         </div>
                         <a href="/book.php?service=ac-service" class="btn btn-primary btn-block">
                             <i class="fas fa-calendar-check"></i> Book AC Service
@@ -182,26 +162,16 @@ include 'partials/navbar.php';
 
         <div class="service-detail-block reverse">
 
-            <!-- Left: Price Card -->
+            <!-- Left: Booking Card -->
             <div class="service-detail-aside">
                 <div class="service-price-card green">
                     <div class="spc-header green">
                         <i class="fas fa-tools"></i> AC Repair
                     </div>
                     <div class="spc-body">
-                        <div class="spc-price-row">
-                            <div>
-                                <div class="spc-label">Diagnosis Fee</div>
-                                <div class="spc-price green">₹299 <span>waived on repair</span></div>
-                            </div>
-                            <div>
-                                <div class="spc-label">Repair (labour)</div>
-                                <div class="spc-price green">₹399 <span>onwards</span></div>
-                            </div>
-                        </div>
                         <div class="spc-note">
                             <i class="fas fa-info-circle"></i>
-                            Diagnosis fee adjusted against repair cost if you proceed.
+                            Technician diagnoses the fault on-site and explains the fix before any repair begins.
                         </div>
                         <a href="/book.php?service=ac-repair" class="btn btn-green btn-block">
                             <i class="fas fa-calendar-check"></i> Book AC Repair
@@ -252,14 +222,14 @@ include 'partials/navbar.php';
                     <li><i class="fas fa-check-circle"></i> Thermostat &amp; sensor repair</li>
                     <li><i class="fas fa-check-circle"></i> Remote control &amp; display issues</li>
                     <li><i class="fas fa-check-circle"></i> All electrical faults inside AC</li>
-                    <li><i class="fas fa-check-circle"></i> 90-day repair warranty</li>
+                    <li><i class="fas fa-check-circle"></i> Genuine spare parts used</li>
                 </ul>
 
                 <div class="warranty-strip">
-                    <i class="fas fa-shield-alt"></i>
+                    <i class="fas fa-bolt"></i>
                     <div>
-                        <strong>90-Day Repair Warranty</strong>
-                        <span>If the same fault returns within 90 days, we fix it free of charge.</span>
+                        <strong>Quick Turnaround</strong>
+                        <span>Most repairs are completed in a single visit, same day.</span>
                     </div>
                 </div>
             </div>
@@ -304,7 +274,7 @@ include 'partials/navbar.php';
                     <li><i class="fas fa-check-circle"></i> R-410A gas refilling (inverter ACs)</li>
                     <li><i class="fas fa-check-circle"></i> Post-refill cooling performance test</li>
                     <li><i class="fas fa-check-circle"></i> Written gas-fill certificate</li>
-                    <li><i class="fas fa-check-circle"></i> 60-day refill warranty</li>
+                    <li><i class="fas fa-check-circle"></i> Genuine refrigerant, correctly measured</li>
                 </ul>
 
                 <!-- Gas Type Cards -->
@@ -312,46 +282,34 @@ include 'partials/navbar.php';
                     <div class="gas-type-card">
                         <div class="gas-name">R-22</div>
                         <div class="gas-desc">Older window &amp; split ACs</div>
-                        <div class="gas-price">From ₹999</div>
                     </div>
                     <div class="gas-type-card">
                         <div class="gas-name">R-32</div>
                         <div class="gas-desc">Modern split ACs</div>
-                        <div class="gas-price">From ₹1,199</div>
                     </div>
                     <div class="gas-type-card">
                         <div class="gas-name">R-410A</div>
                         <div class="gas-desc">Inverter ACs</div>
-                        <div class="gas-price">From ₹1,499</div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right: Price Card -->
+            <!-- Right: Booking Card -->
             <div class="service-detail-aside">
                 <div class="service-price-card amber">
                     <div class="spc-header amber">
                         <i class="fas fa-gas-pump"></i> Gas Refilling
                     </div>
                     <div class="spc-body">
-                        <div class="spc-price-row" style="grid-template-columns:1fr">
-                            <div>
-                                <div class="spc-label">Gas Refilling (all types)</div>
-                                <div class="spc-price amber">₹999 <span>onwards</span></div>
-                                <div style="font-size:12px;color:var(--gray-500);margin-top:4px">
-                                    Price varies by gas type &amp; quantity
-                                </div>
-                            </div>
-                        </div>
                         <div class="spc-note amber">
                             <i class="fas fa-info-circle"></i>
-                            Leak detection &amp; repair charged separately if a leak is found.
+                            Leak detection &amp; repair charged separately if a leak is found. Quote confirmed before refilling.
                         </div>
                         <a href="/book.php?service=gas-refill" class="btn btn-amber btn-block">
                             <i class="fas fa-calendar-check"></i> Book Gas Refill
                         </a>
                         <a href="tel:+918003001234" class="btn btn-outline btn-block" style="margin-top:10px">
-                            <i class="fas fa-phone"></i> Call for Price Estimate
+                            <i class="fas fa-phone"></i> Call to Discuss
                         </a>
                     </div>
                 </div>
@@ -388,26 +346,16 @@ include 'partials/navbar.php';
 
         <div class="service-detail-block reverse">
 
-            <!-- Left: Price + Info boxes -->
+            <!-- Left: Booking Card + Info boxes -->
             <div class="service-detail-aside">
                 <div class="service-price-card">
                     <div class="spc-header">
                         <i class="fas fa-hammer"></i> AC Installation
                     </div>
                     <div class="spc-body">
-                        <div class="spc-price-row">
-                            <div>
-                                <div class="spc-label">Split AC Installation</div>
-                                <div class="spc-price">₹799 <span>onwards</span></div>
-                            </div>
-                            <div>
-                                <div class="spc-label">Window AC Installation</div>
-                                <div class="spc-price">₹599 <span>onwards</span></div>
-                            </div>
-                        </div>
                         <div class="spc-note">
                             <i class="fas fa-info-circle"></i>
-                            Pipes, brackets &amp; copper wire extra if not provided by customer.
+                            Pipes, brackets &amp; copper wire extra if not provided by customer. Quote confirmed on-site.
                         </div>
                         <a href="/book.php?service=ac-installation" class="btn btn-primary btn-block">
                             <i class="fas fa-calendar-check"></i> Book Installation
@@ -457,7 +405,7 @@ include 'partials/navbar.php';
                     <li><i class="fas fa-check-circle"></i> Outdoor unit secure mounting</li>
                     <li><i class="fas fa-check-circle"></i> Gas pressure verification after install</li>
                     <li><i class="fas fa-check-circle"></i> Full demo of remote &amp; features</li>
-                    <li><i class="fas fa-check-circle"></i> 6-month installation warranty</li>
+                    <li><i class="fas fa-check-circle"></i> Site cleanup after installation</li>
                 </ul>
 
                 <!-- AC Shift / Reinstall note -->
@@ -529,10 +477,6 @@ include 'partials/navbar.php';
           'a' => 'Yes. We handle installations on all floors and manage long copper pipe runs (up to 15 metres standard, longer runs available with additional pipe cost). We assess the site before starting any work.',
         ],
         [
-          'q' => 'What is the warranty on your AC repair work?',
-          'a' => 'All AC repair work comes with a 90-day service warranty. If the same fault returns within 90 days, we fix it free of charge. Gas refills carry a 60-day warranty. New installations are covered for 6 months.',
-        ],
-        [
           'q' => 'Do you carry spare parts for all AC brands?',
           'a' => 'Our technicians carry commonly needed parts (capacitors, filters, drain pipes, etc.) in their van. For specific parts like PCBs, motors, or compressors, we source OEM-grade parts within 24–48 hours and schedule a return visit.',
         ],
@@ -560,7 +504,7 @@ include 'partials/navbar.php';
         <div class="cta-banner">
             <div>
                 <h2>Book Your AC Service Today</h2>
-                <p>Same-day slots available. Certified technicians. 90-day warranty. No advance payment.</p>
+                <p>Same-day slots available. Certified technicians. No advance payment.</p>
             </div>
             <div class="cta-banner-actions">
                 <a href="/book.php" class="btn btn-white btn-lg">
@@ -779,44 +723,6 @@ include 'partials/navbar.php';
         padding: var(--space-24);
     }
 
-    .spc-price-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: var(--space-16);
-        margin-bottom: var(--space-20);
-        padding-bottom: var(--space-20);
-        border-bottom: 1px solid var(--gray-100);
-    }
-
-    .spc-label {
-        font-size: var(--text-xs);
-        color: var(--gray-500);
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        margin-bottom: 4px;
-    }
-
-    .spc-price {
-        font-size: var(--text-2xl);
-        font-weight: 900;
-        color: var(--blue);
-    }
-
-    .spc-price.green {
-        color: var(--green-dark);
-    }
-
-    .spc-price.amber {
-        color: var(--amber-dark);
-    }
-
-    .spc-price span {
-        font-size: var(--text-sm);
-        font-weight: 400;
-        color: var(--gray-500);
-    }
-
     .spc-note {
         display: flex;
         align-items: flex-start;
@@ -927,12 +833,6 @@ include 'partials/navbar.php';
         margin: 4px 0 8px;
     }
 
-    .gas-price {
-        font-size: var(--text-sm);
-        font-weight: 700;
-        color: var(--gray-800);
-    }
-
     /* Install includes grid */
     .install-includes-grid {
         display: grid;
@@ -1020,10 +920,6 @@ include 'partials/navbar.php';
 
         .gas-types-grid {
             grid-template-columns: repeat(3, 1fr);
-        }
-
-        .spc-price-row {
-            grid-template-columns: 1fr;
         }
 
         .page-hero-badges {
