@@ -95,8 +95,11 @@ $current_year = date('Y');
               <span>Delhi NCR, India</span>
             </li>
           </ul>
+        </div>
 
-          <h4 class="footer-col-title" style="margin-top:24px">Legal</h4>
+        <!-- LEGAL COLUMN -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Legal</h4>
           <ul>
             <li><a href="/privacy.php">Privacy Policy</a></li>
             <li><a href="/terms.php">Terms of Service</a></li>

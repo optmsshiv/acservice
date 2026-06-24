@@ -16,7 +16,7 @@
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1.6fr 1fr 1fr 1.1fr;
+    grid-template-columns: 1.6fr 1fr 1fr 1fr 0.9fr;
     gap: var(--space-40);
     align-items: start;
 }
