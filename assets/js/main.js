@@ -82,8 +82,8 @@ function initMobileMenu() {
         if (e.key === 'Escape' && menu.classList.contains('open')) closeMenu();
     });
 
-    /* Close when a menu link is clicked */
-    menu.querySelectorAll('a').forEach(link => {
+    /* Close when a menu link is clicked (exclude the services toggle) */
+    menu.querySelectorAll('a:not(#servicesToggle)').forEach(link => {
         link.addEventListener('click', closeMenu);
     });
 }

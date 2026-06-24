@@ -140,7 +140,7 @@ $nav_links = [
 <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
 
 <script>
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
   var toggle = document.getElementById('servicesToggle');
   var sublinks = document.getElementById('servicesSublinks');
   if (toggle && sublinks) {
@@ -151,5 +151,5 @@ $nav_links = [
       toggle.classList.toggle('open', !isOpen);
     });
   }
-})();
+});
 </script>
