@@ -92,10 +92,10 @@ $nav_links = [
     <a href="/" class="mobile-link <?php echo ($current_page==='home') ? 'active' : ''; ?>">
       <i class="fas fa-home" aria-hidden="true"></i> Home
     </a>
-    <a href="/services.php" class="mobile-link mobile-link-toggle <?php echo ($current_page==='services') ? 'active' : ''; ?>" id="servicesToggle">
+    <button type="button" class="mobile-link mobile-link-toggle <?php echo ($current_page==='services') ? 'active' : ''; ?>" id="servicesToggle" aria-expanded="false" aria-controls="servicesSublinks">
       <i class="fas fa-tools" aria-hidden="true"></i> Services
       <i class="fas fa-chevron-down mobile-toggle-arrow" aria-hidden="true"></i>
-    </a>
+    </button>
 
     <!-- Services Sub-links — hidden by default, toggled by JS -->
     <div class="mobile-sublinks" id="servicesSublinks" style="display:none">
@@ -144,11 +144,11 @@ document.addEventListener('DOMContentLoaded', function () {
   var toggle = document.getElementById('servicesToggle');
   var sublinks = document.getElementById('servicesSublinks');
   if (toggle && sublinks) {
-    toggle.addEventListener('click', function (e) {
-      e.preventDefault();
+    toggle.addEventListener('click', function () {
       var isOpen = sublinks.style.display !== 'none';
       sublinks.style.display = isOpen ? 'none' : 'flex';
       toggle.classList.toggle('open', !isOpen);
+      toggle.setAttribute('aria-expanded', String(!isOpen));
     });
   }
 });

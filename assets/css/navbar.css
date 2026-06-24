@@ -307,6 +307,13 @@
     color: var(--gray-800);
     transition: var(--transition-fast);
     border-bottom: 1px solid var(--gray-100);
+    /* Reset button styles when used as <button> */
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-family: var(--font-base);
+    text-decoration: none;
 }
 
 /* Services link — square bottom corners so sublinks sit flush */
