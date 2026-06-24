@@ -34,8 +34,7 @@ include 'partials/navbar.php';
                 </h1>
 
                 <p class="hero-sub">
-                    AC repair, installation, refrigerator service, washing machine,
-                    electrical &amp; plumbing — all with certified technicians,
+                    AC repair, installation — all with certified technicians,
                     and transparent pricing.
                 </p>
 
