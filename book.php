@@ -6,7 +6,7 @@
 
 $current_page     = 'book';
 $page_title       = 'Book AC Service — EZAC Service | Same-Day AC Repair & Installation';
-$page_description = 'Book AC repair, gas refilling, installation or servicing online. Choose your time slot. Certified technician arrives same day. 90-day warranty. No advance payment.';
+$page_description = 'Book AC repair, gas refilling, installation or servicing online. Choose your time slot. Certified technician arrives same day. No advance payment.';
 $page_canonical   = 'https://ezacservice.in/book.php';
 
 /* Pre-select service from URL param */
@@ -43,9 +43,8 @@ include 'partials/navbar.php';
         </p>
       </div>
       <div class="book-hero-trust">
-        <div class="bht-item"><i class="fas fa-shield-alt"></i><span>90-Day Warranty</span></div>
         <div class="bht-item"><i class="fas fa-clock"></i><span>Same-Day Available</span></div>
-        <div class="bht-item"><i class="fas fa-rupee-sign"></i><span>No Advance Payment</span></div>
+        <div class="bht-item"><i class="fas fa-hand-holding-usd"></i><span>No Advance Payment</span></div>
         <div class="bht-item"><i class="fas fa-star" style="color:var(--amber)"></i><span>4.9★ Rated Service</span>
         </div>
       </div>
@@ -93,10 +92,10 @@ include 'partials/navbar.php';
           <div class="service-selector-grid">
             <?php
             $services = [
-              ['val'=>'ac-service',     'icon'=>'fa-wind',      'label'=>'AC Service',     'sub'=>'Cleaning & check-up',   'price'=>'From ₹399'],
-              ['val'=>'ac-repair',      'icon'=>'fa-tools',     'label'=>'AC Repair',      'sub'=>'Fault diagnosis & fix', 'price'=>'From ₹399'],
-              ['val'=>'gas-refill',     'icon'=>'fa-gas-pump',  'label'=>'Gas Refilling',  'sub'=>'R-22, R-32, R-410A',    'price'=>'From ₹999'],
-              ['val'=>'ac-installation','icon'=>'fa-hammer',    'label'=>'AC Installation','sub'=>'Split & Window AC',     'price'=>'From ₹599'],
+              ['val'=>'ac-service',     'icon'=>'fa-wind',      'label'=>'AC Service',     'sub'=>'Cleaning & check-up'],
+              ['val'=>'ac-repair',      'icon'=>'fa-tools',     'label'=>'AC Repair',      'sub'=>'Fault diagnosis & fix'],
+              ['val'=>'gas-refill',     'icon'=>'fa-gas-pump',  'label'=>'Gas Refilling',  'sub'=>'R-22, R-32, R-410A'],
+              ['val'=>'ac-installation','icon'=>'fa-hammer',    'label'=>'AC Installation','sub'=>'Split & Window AC'],
             ];
             foreach ($services as $s):
               $selected = ($preselect_service === $s['val']) ? 'selected' : '';
@@ -111,9 +110,6 @@ include 'partials/navbar.php';
                 <span>
                   <?php echo $s['sub']; ?>
                 </span>
-              </div>
-              <div class="ssc-price">
-                <?php echo $s['price']; ?>
               </div>
               <div class="ssc-check"><i class="fas fa-check-circle"></i></div>
             </div>
@@ -242,11 +238,11 @@ include 'partials/navbar.php';
 
           <!-- Info Box -->
           <div class="form-info-box">
-            <i class="fas fa-rupee-sign"></i>
+            <i class="fas fa-info-circle"></i>
             <p>
-              <strong>Diagnosis fee: ₹299</strong> — adjusted against the repair cost
-              if you proceed with the service. Final price confirmed before any
-              work begins. <strong>No advance payment</strong> required.
+              Our technician will inspect the issue and confirm everything
+              with you before any work begins. <strong>No advance payment</strong>
+              required.
             </p>
           </div>
 
@@ -303,20 +299,6 @@ include 'partials/navbar.php';
                 <span>Every tech is background-checked and brand-certified.</span>
               </div>
             </li>
-            <li>
-              <i class="fas fa-check-circle"></i>
-              <div>
-                <strong>90-Day Warranty</strong>
-                <span>Free re-service if the same issue returns within 90 days.</span>
-              </div>
-            </li>
-            <li>
-              <i class="fas fa-check-circle"></i>
-              <div>
-                <strong>Transparent Pricing</strong>
-                <span>Full cost shown before work begins. You approve first.</span>
-              </div>
-            </li>
           </ul>
         </div>
 
@@ -337,53 +319,12 @@ include 'partials/navbar.php';
           </p>
         </div>
 
-        <!-- Service Price Reference -->
-        <div class="sidebar-card">
-          <h3 class="sidebar-card-title">
-            <i class="fas fa-rupee-sign" style="color:var(--blue)"></i>
-            Price Reference
-          </h3>
-          <div class="sidebar-price-list">
-            <div class="spl-row">
-              <span>AC Servicing (Split)</span>
-              <strong>From ₹499</strong>
-            </div>
-            <div class="spl-row">
-              <span>AC Servicing (Window)</span>
-              <strong>From ₹399</strong>
-            </div>
-            <div class="spl-row">
-              <span>AC Repair (Labour)</span>
-              <strong>From ₹399</strong>
-            </div>
-            <div class="spl-row">
-              <span>Gas Refill (R-22)</span>
-              <strong>From ₹999</strong>
-            </div>
-            <div class="spl-row">
-              <span>Gas Refill (R-32)</span>
-              <strong>From ₹1,199</strong>
-            </div>
-            <div class="spl-row">
-              <span>AC Installation (Split)</span>
-              <strong>From ₹799</strong>
-            </div>
-            <div class="spl-row">
-              <span>AC Installation (Window)</span>
-              <strong>From ₹599</strong>
-            </div>
-          </div>
-          <p style="font-size:11px;color:var(--gray-400);margin-top:var(--space-12)">
-            * Prices vary by model &amp; condition. Exact quote given on-site before work starts.
-          </p>
-        </div>
-
         <!-- Reviews Mini -->
         <div class="sidebar-card sidebar-review-card">
           <div class="sidebar-review-stars">★★★★★</div>
           <p class="sidebar-review-text">
             "EZAC technician came same day, fixed my AC gas leak in 2 hours.
-            Honest price, 90-day warranty. Highly recommended!"
+            Highly recommended!"
           </p>
           <div class="sidebar-reviewer">
             <div class="avatar" style="width:36px;height:36px;font-size:13px;background:var(--blue)">RK</div>
@@ -617,13 +558,6 @@ include 'partials/navbar.php';
     color: var(--gray-500);
   }
 
-  .ssc-price {
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--blue);
-    white-space: nowrap;
-  }
-
   .ssc-check {
     position: absolute;
     top: 8px;
@@ -726,35 +660,6 @@ include 'partials/navbar.php';
     margin: 0;
   }
 
-  /* Price list */
-  .sidebar-price-list {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-8);
-  }
-
-  .spl-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: var(--text-sm);
-    padding: 8px 0;
-    border-bottom: 1px solid var(--gray-100);
-  }
-
-  .spl-row:last-child {
-    border-bottom: none;
-  }
-
-  .spl-row span {
-    color: var(--gray-600);
-  }
-
-  .spl-row strong {
-    color: var(--gray-900);
-    font-weight: 700;
-  }
-
   /* Review card */
   .sidebar-review-card {
     background: var(--gray-50);
@@ -803,6 +708,10 @@ include 'partials/navbar.php';
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: var(--space-16);
+    }
+
+    .sidebar-review-card {
+      grid-column: 1 / -1;
     }
   }
 
