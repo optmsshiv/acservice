@@ -24,7 +24,7 @@ include 'partials/navbar.php';
             <div class="hero-content">
                 <div class="hero-eyebrow">
                     <i class="fas fa-shield-alt"></i>
-                    Trusted by 50,00+ customers across Delhi NCR
+                    Trusted by 5,000+ customers across Delhi NCR
                 </div>
 
                 <h1 class="hero-title">
@@ -83,34 +83,21 @@ include 'partials/navbar.php';
 
                 <!-- Service Quick Buttons -->
                 <div class="service-quick-grid">
-                    <a href="/service-ac.php" class="service-quick-btn">
+                    <a href="/services.php#ac-service" class="service-quick-btn">
+                        <i class="fas fa-wind"></i>
+                        <span>AC Service</span>
+                    </a>
+                    <a href="/services.php#ac-repair" class="service-quick-btn">
                         <i class="fas fa-snowflake"></i>
                         <span>AC Repair</span>
                     </a>
-                    <a href="/service-ac.php" class="service-quick-btn">
-                        <i class="fas fa-tools"></i>
+                    <a href="/services.php#ac-gas-refill" class="service-quick-btn">
+                        <i class="fas fa-gas-pump"></i>
+                        <span>Gas Refill</span>
+                    </a>
+                    <a href="/services.php#ac-installation" class="service-quick-btn">
+                        <i class="fas fa-hammer"></i>
                         <span>AC Install</span>
-                    </a>
-                    <a href="/service-ac.php" class="service-quick-btn">
-                        <i class="fas fa-broom"></i>
-                        <span>AC Cleaning</span>
-                    </a>
-                    <a href="/services.php" class="service-quick-btn">
-                        <i class="fas fa-temperature-low"></i>
-                        <span>Remote / thermostat issues</span>
-                    </a>
-                    <a href="/services.php" class="service-quick-btn">
-                        <i class="fas fa-sync-alt"></i>
-                        <span>Compressor issue</span>
-                    </a>
-                    <a href="/services.php" class="service-quick-btn">
-                        <i class="fas fa-plug"></i>
-                        <span>Electrical</span>
-                    </a>
-                    
-                    <a href="/services.php" class="service-quick-btn">
-                        <i class="fas fa-ellipsis-h"></i>
-                        <span>All Services</span>
                     </a>
                 </div>
 
@@ -150,7 +137,6 @@ include 'partials/navbar.php';
                 <span>Same-Day Service</span>
             </div>
             <div class="trust-divider"></div>
-            <div class="trust-divider"></div>
             <div class="trust-item">
                 <i class="fas fa-rupee-sign"></i>
                 <span>Transparent Pricing</span>
@@ -177,55 +163,43 @@ include 'partials/navbar.php';
 
         <div class="section-header center">
             <div class="section-label">Our Services</div>
-            <h2 class="section-title">Everything Your Home Needs</h2>
+            <h2 class="section-title">Expert AC Services for Every Need</h2>
             <p class="section-subtitle">
-                From AC to plumbing — we cover all home appliance &amp; service needs
-                with certified professionals and genuine spare parts.
+                Window AC or Split AC — we handle repair, gas refilling, deep cleaning
+                and fresh installation with certified technicians and genuine parts.
             </p>
         </div>
 
         <div class="services-grid">
 
-            <a href="/service-ac.php" class="service-card">
+            <a href="/services.php#ac-service" class="service-card">
+                <div class="service-icon"><i class="fas fa-wind"></i></div>
+                <h3>AC Service</h3>
+                <p>Deep cleaning, filter wash, coil cleaning — restores full cooling efficiency for window &amp; split ACs.</p>
+                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
+            </a>
+
+            <a href="/services.php#ac-repair" class="service-card">
                 <div class="service-icon"><i class="fas fa-snowflake"></i></div>
                 <h3>AC Repair</h3>
-                <p>Not cooling, gas leak, PCB fault, water dripping — all AC issues fixed.</p>
-                <div class="service-card-price"><span class="badge badge-blue">AC Repair</span></div>
+                <p>Not cooling, gas leak, PCB fault, water dripping, compressor issue — all AC faults fixed fast.</p>
                 <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
             </a>
 
-            <a href="/service-ac.php" class="service-card">
-                <div class="service-icon"><i class="fas fa-tools"></i></div>
+            <a href="/services.php#ac-gas-refill" class="service-card">
+                <div class="service-icon"><i class="fas fa-gas-pump"></i></div>
+                <h3>AC Gas Refill</h3>
+                <p>R-22, R-32, R-410A refrigerant refilling with leak detection — restores peak cooling performance.</p>
+                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
+            </a>
+
+            <a href="/services.php#ac-installation" class="service-card">
+                <div class="service-icon"><i class="fas fa-hammer"></i></div>
                 <h3>AC Installation</h3>
-                <p>Split, window, cassette AC installation by brand-certified engineers.</p>
-                <div class="service-card-price"><span class="badge badge-blue">AC Installation</span></div>
+                <p>Split &amp; window AC installation by brand-certified engineers — with test run and full demo.</p>
                 <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
             </a>
 
-            <a href="/service-ac.php" class="service-card">
-                <div class="service-icon"><i class="fas fa-broom"></i></div>
-                <h3>AC Maintenance</h3>
-                <p>Deep cleaning, filter wash, coil cleaning — restores full cooling efficiency.</p>
-                <div class="service-card-price"><span class="badge badge-blue">AC Maintenance</span></div>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
-            </a>
-
-            <a href="/services.php#appliances" class="service-card green">
-                <div class="service-icon"><i class="fas fa-temperature-low"></i></div>
-                <h3>Thermostat Repair</h3>
-                <p>Cooling issues, compressor, thermostat — all fridge brands serviced.</p>
-                <div class="service-card-price"><span class="badge badge-green">Thermostat Repair</span></div>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
-            </a>
-
-            <a href="/services.php#appliances" class="service-card green">
-                <div class="service-icon"><i class="fas fa-sync-alt"></i></div>
-                <h3>Compressor Issue</h3>
-                <p>Front / top load, drum, motor, PCB repair at your doorstep.</p>
-                <div class="service-card-price"><span class="badge badge-green">Compressor Issue</span></div>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
-            </a>
- 
         </div><!-- /services-grid -->
 
         <div class="text-center" style="margin-top:var(--space-40)">
@@ -1021,6 +995,63 @@ include 'partials/navbar.php';
 
         .hero-actions .btn {
             width: 100%;
+        }
+    }
+
+    /* ── SERVICES SECTION: 4 equal columns ── */
+    #services .services-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--space-24);
+    }
+
+    /* Remove green variant on service cards — all blue for AC */
+    #services .service-card.green .service-icon {
+        background: var(--blue-light);
+        color: var(--blue);
+    }
+    #services .service-card.green::before {
+        background: var(--blue);
+    }
+    #services .service-card.green:hover .service-icon {
+        background: var(--blue);
+        color: #fff;
+    }
+
+    /* Service card description always visible */
+    #services .service-card p {
+        display: block;
+        font-size: var(--text-sm);
+        color: var(--gray-600);
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    /* Price badge row spacing */
+    .service-card-price {
+        margin-top: var(--space-12);
+        margin-bottom: var(--space-4);
+    }
+
+    /* Book Now link color fix */
+    .service-card-link {
+        color: var(--blue);
+    }
+
+    /* Quick book grid: 2x2 (4 items) */
+    .service-quick-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* ── RESPONSIVE: services section ── */
+    @media (max-width: 1024px) {
+        #services .services-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width: 640px) {
+        #services .services-grid {
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 </style>
