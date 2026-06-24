@@ -5,8 +5,8 @@
    ============================================================ */
 
 $current_page     = 'about';
-$page_title       = 'About Us — EZAC Service | Trusted AC Service Company in Bihar';
-$page_description = 'EZAC Service was founded in 2015 with a mission to bring reliable, affordable, and professional AC repair and installation services to homes and businesses across Bihar, Jharkhand and UP.';
+$page_title       = 'About Us — EZAC Service | Trusted AC Service Company in Delhi NCR';
+$page_description = 'EZAC Service — Professional AC repair, gas refilling, installation and servicing for homes and offices across Delhi NCR. Certified technicians, transparent pricing.';
 $page_canonical   = 'https://ezacservice.in/about.php';
 
 include 'partials/head.php';
@@ -34,8 +34,8 @@ include 'partials/navbar.php';
         <div class="section-label white">About EZAC Service</div>
         <h1>Built on Trust.<br>Powered by Expertise.<br><span class="about-hero-accent">Driven by You.</span></h1>
         <p>
-          Since 2015, we have been Bihar's most trusted name in AC repair,
-          installation, and maintenance — serving 50,000+ homes and businesses
+          Since 2015, we have been Delhi NCR's most trusted name in AC repair,
+          installation, and maintenance — serving 5,000+ homes and businesses
           with certified technicians, genuine parts, and a commitment to
           getting it right the first time.
         </p>
@@ -50,11 +50,11 @@ include 'partials/navbar.php';
       </div>
       <div class="about-hero-stats">
         <div class="about-stat-card">
-          <div class="about-stat-num">50K+</div>
+          <div class="about-stat-num">5K+</div>
           <div class="about-stat-lbl">Homes &amp; Offices Served</div>
         </div>
         <div class="about-stat-card">
-          <div class="about-stat-num">200+</div>
+          <div class="about-stat-num">50+</div>
           <div class="about-stat-lbl">Certified Technicians</div>
         </div>
         <div class="about-stat-card">
@@ -80,10 +80,10 @@ include 'partials/navbar.php';
       <!-- Story Text -->
       <div>
         <div class="section-label">Our Story</div>
-        <h2 class="section-title">From One City to<br>Thousands of Homes</h2>
+        <h2 class="section-title">From One City to<br>Thousands of Customers</h2>
         <div class="story-text">
           <p>
-            EZAC Service was founded in 2015 in Madhepura, Bihar, by a small team
+            EZAC Service was founded in 2015 in Delhi, by a small team
             of engineers frustrated with the same problem: when their own ACs broke
             down in summer, they couldn't find a technician who showed up on time,
             charged fairly, or stood behind their work.
@@ -94,21 +94,21 @@ include 'partials/navbar.php';
             grew steadily — word of mouth by word of mouth, household by household.
           </p>
           <p>
-            Today, we operate across 30+ cities in Bihar, Jharkhand, and Uttar Pradesh
-            with a team of 200+ background-verified, brand-certified technicians who
-            complete over 1,500 service visits every month. Our 4.9-star rating across
-            50,000+ reviews reflects not just good repairs — but a consistent promise kept.
+            Today, we operate across Delhi, Noida, Gurgaon, Faridabad, and Greater Noida
+            with a team of 50+ background-verified, brand-certified technicians who
+            complete over 200 service visits every month. Our 4.9-star rating across
+            5,000+ reviews reflects not just good repairs — but a consistent promise kept.
           </p>
         </div>
 
         <div class="story-highlights">
           <div class="story-highlight">
             <i class="fas fa-map-marker-alt"></i>
-            <span>Founded in Madhepura, Bihar — 2015</span>
+            <span>Founded in Delhi NCR — 2015</span>
           </div>
           <div class="story-highlight">
             <i class="fas fa-city"></i>
-            <span>Now serving 30+ cities across 3 states</span>
+            <span>Serving Delhi, Noida, Gurgaon, Faridabad &amp; more</span>
           </div>
           <div class="story-highlight">
             <i class="fas fa-certificate"></i>
@@ -129,7 +129,7 @@ include 'partials/navbar.php';
           </div>
           <div class="story-visual-year">Est. 2015</div>
           <div class="story-visual-title">EZAC Service</div>
-          <div class="story-visual-sub">Madhepura, Bihar</div>
+          <div class="story-visual-sub">New Delhi, NCR</div>
         </div>
         <div class="story-visual-quote">
           <i class="fas fa-quote-left"></i>
@@ -161,7 +161,7 @@ include 'partials/navbar.php';
       <div class="section-label">Our Journey</div>
       <h2 class="section-title">A Decade of Growth</h2>
       <p class="section-subtitle">
-        From a 3-person team in Madhepura to Bihar's leading AC service brand.
+        From a 5-person team in Delhi to NCR's trusted AC service brand.
       </p>
     </div>
 
@@ -170,8 +170,8 @@ include 'partials/navbar.php';
       $milestones = [
         [
           'year'  => '2015',
-          'title' => 'Founded in Madhepura',
-          'desc'  => 'Started with 3 technicians and a simple mission — honest, reliable AC repair.',
+          'title' => 'Founded in Delhi',
+          'desc'  => 'Started with 5 technicians and a simple mission — honest AC repair at fair prices.',
           'icon'  => 'fa-flag',
           'color' => 'blue',
         ],
@@ -198,15 +198,15 @@ include 'partials/navbar.php';
         ],
         [
           'year'  => '2023',
-          'title' => '30+ Cities, 200+ Technicians',
-          'desc'  => 'Now serving 30+ cities with 200+ certified technicians. Launched Business Pro AMC for commercial clients.',
+          'title' => '5 Cities, 50+ Technicians',
+          'desc'  => 'Now serving all major NCR zones with 50+ certified technicians. Launched AMC for commercial clients.',
           'icon'  => 'fa-rocket',
           'color' => 'green',
         ],
         [
           'year'  => '2025',
-          'title' => '50,000+ Homes Served',
-          'desc'  => 'A decade of trusted service. 50,000+ happy customers. 4.9★ average rating. Still growing.',
+          'title' => '5,000+ Customers Served',
+          'desc'  => 'A decade of trusted service. 5,000+ happy customers across Delhi NCR. 4.9★ average rating.',
           'icon'  => 'fa-star',
           'color' => 'amber',
         ],
@@ -260,7 +260,7 @@ include 'partials/navbar.php';
           'icon'  => 'fa-handshake',
           'color' => 'blue',
           'title' => 'Honesty First',
-          'desc'  => 'We show you the problem, explain the fix, and walk you through it — before touching anything. No work begins without your approval.',
+          'desc'  => 'We show you the problem, explain the fix, and quote the price — before touching anything. No work begins without your approval.',
         ],
         [
           'icon'  => 'fa-clock',
@@ -278,7 +278,7 @@ include 'partials/navbar.php';
           'icon'  => 'fa-shield-alt',
           'color' => 'blue',
           'title' => 'Stand Behind Our Work',
-          'desc'  => 'If the same issue comes back, we come back too — no questions asked. Accountability doesn\'t end when the technician leaves.',
+          'desc'  => 'Every repair comes with a 90-day warranty. If the same issue returns, we fix it free. That\'s our promise — in writing.',
         ],
         [
           'icon'  => 'fa-heart',
@@ -297,7 +297,6 @@ include 'partials/navbar.php';
 
       <?php foreach ($values as $v): ?>
       <div class="value-card">
-        <span class="value-accent <?php echo $v['color']; ?>"></span>
         <div class="value-icon <?php echo $v['color']; ?>">
           <i class="fas <?php echo $v['icon']; ?>"></i>
         </div>
@@ -334,7 +333,7 @@ include 'partials/navbar.php';
     <div class="team-grid" style="margin-bottom:var(--space-48)">
       <?php
       $leadership = [
-        ['initials'=>'AK','name'=>'Ajay Kumar',   'role'=>'Founder & CEO',          'color'=>'#0D6EFD','desc'=>'10+ years in appliance service industry. Founded EZAC at 26 with just 3 technicians.'],
+        ['initials'=>'AK','name'=>'Ajay Kumar',   'role'=>'Founder & CEO',          'color'=>'#0D6EFD','desc'=>'10+ years in appliance service industry. Founded EZAC at 26 with ₹50,000 and 3 technicians.'],
         ['initials'=>'RS','name'=>'Rohit Singh',   'role'=>'Head of Operations',     'color'=>'#00B894','desc'=>'Manages day-to-day operations across 30+ cities. Former operations manager at a national service chain.'],
         ['initials'=>'PM','name'=>'Pooja Mishra',  'role'=>'Customer Experience',    'color'=>'#6610f2','desc'=>'Leads our customer support and quality assurance team. Ensures every booking ends with a 5-star experience.'],
         ['initials'=>'SK','name'=>'Sanjay Kumar',  'role'=>'Head of Technicians',    'color'=>'#FFC107','textColor'=>'#333','desc'=>'Trains and certifies all EZAC technicians. Holds certification from LG, Samsung, and Daikin service academies.'],
@@ -366,7 +365,7 @@ include 'partials/navbar.php';
     <!-- Technician Stats -->
     <div class="tech-stats-banner">
       <div class="tech-stats-text">
-        <h3>200+ Certified Technicians</h3>
+        <h3>50+ Certified Technicians</h3>
         <p>
           Every EZAC technician goes through a rigorous 3-stage process before
           their first customer visit — background verification, technical training,
@@ -425,9 +424,9 @@ include 'partials/navbar.php';
     <div class="areas-block">
       <?php
       $areas = [
-        'Bihar'        => ['Patna','Madhepura','Bhagalpur','Muzaffarpur','Saharsa','Darbhanga','Begusarai','Purnia','Gaya','Munger','Sitamarhi','Supaul','Araria','Kishanganj','Katihar','Banka'],
-        'Jharkhand'    => ['Ranchi','Jamshedpur','Dhanbad','Bokaro','Deoghar','Giridih','Hazaribagh'],
-        'Uttar Pradesh'=> ['Varanasi','Gorakhpur','Azamgarh','Mau','Deoria','Ballia','Ghazipur'],
+        'Delhi'  => ['South Delhi','North Delhi','East Delhi','West Delhi','Central Delhi','Dwarka','Rohini','Janakpuri','Saket','Lajpat Nagar','Karol Bagh','Connaught Place','Vasant Kunj','Pitampura'],
+        'Noida / Greater Noida' => ['Sector 18','Sector 62','Sector 137','Greater Noida West','Knowledge Park','Pari Chowk','Sector 50','Sector 76'],
+        'Gurgaon / Faridabad' => ['DLF Phase 1-5','Sohna Road','Golf Course Road','Cyber City','Sector 14','Sector 56','NIT Faridabad','Old Faridabad'],
       ];
       ?>
 
@@ -451,8 +450,8 @@ include 'partials/navbar.php';
 
     <p class="areas-note">
       <i class="fas fa-info-circle"></i>
-      Don't see your city? Call us at <a href="tel:+918003001234">+91-800-300-1234</a> —
-      we may still be able to help or expand to your area soon.
+      Don't see your area? Call us at <a href="tel:+917827464409">+91-782-746-4409</a> —
+      we may still be able to cover your location within Delhi NCR.
     </p>
 
   </div>
@@ -463,7 +462,7 @@ include 'partials/navbar.php';
   <div class="container">
     <div class="cta-banner">
       <div>
-        <h2>Join 50,000+ Happy Customers</h2>
+        <h2>Join 5,000+ Happy Customers</h2>
         <p>Experience the EZAC difference — on time, honest, and done right.</p>
       </div>
       <div class="cta-banner-actions">
@@ -809,38 +808,17 @@ include 'partials/navbar.php';
   }
 
   .value-card {
-    position: relative;
     background: var(--white);
     border: 1.5px solid var(--gray-200);
     border-radius: var(--radius-lg);
-    padding: var(--space-28) var(--space-24) var(--space-24);
-    overflow: hidden;
+    padding: var(--space-28) var(--space-24);
     transition: var(--transition);
   }
 
-  .value-accent {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.35s ease;
-  }
-
-  .value-accent.blue   { background: var(--blue); }
-  .value-accent.green  { background: var(--green); }
-  .value-accent.amber  { background: var(--amber); }
-
   .value-card:hover {
-    border-color: transparent;
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-4px);
-  }
-
-  .value-card:hover .value-accent {
-    transform: scaleX(1);
+    border-color: var(--blue-light);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-3px);
   }
 
   .value-icon {
@@ -850,51 +828,43 @@ include 'partials/navbar.php';
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 21px;
-    margin-bottom: var(--space-20);
-    transition: var(--transition);
+    font-size: 22px;
+    margin-bottom: var(--space-16);
   }
 
   .value-icon.blue {
     background: var(--blue-light);
     color: var(--blue);
-    box-shadow: inset 0 0 0 1px rgba(13, 110, 253, 0.12);
   }
 
   .value-icon.green {
     background: var(--green-light);
     color: var(--green-dark);
-    box-shadow: inset 0 0 0 1px rgba(0, 184, 148, 0.14);
   }
 
   .value-icon.amber {
     background: var(--amber-light);
     color: var(--amber-dark);
-    box-shadow: inset 0 0 0 1px rgba(255, 193, 7, 0.25);
   }
 
   .value-card:hover .value-icon.blue {
     background: var(--blue);
     color: #fff;
-    box-shadow: var(--shadow-blue);
   }
 
   .value-card:hover .value-icon.green {
     background: var(--green);
     color: #fff;
-    box-shadow: var(--shadow-green);
   }
 
   .value-card:hover .value-icon.amber {
     background: var(--amber);
     color: var(--gray-900);
-    box-shadow: 0 4px 20px rgba(255, 193, 7, 0.30);
   }
 
   .value-card h3 {
     font-size: var(--text-md);
-    font-weight: 800;
-    letter-spacing: -0.01em;
+    font-weight: 700;
     color: var(--gray-900);
     margin-bottom: var(--space-8);
   }
