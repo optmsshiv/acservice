@@ -24,7 +24,7 @@ include 'partials/navbar.php';
             <div class="hero-content">
                 <div class="hero-eyebrow">
                     <i class="fas fa-shield-alt"></i>
-                    Trusted by 50,000+ customers across Bihar
+                    Trusted by 50,00+ customers across Delhi NCR
                 </div>
 
                 <h1 class="hero-title">
@@ -36,7 +36,7 @@ include 'partials/navbar.php';
                 <p class="hero-sub">
                     AC repair, installation, refrigerator service, washing machine,
                     electrical &amp; plumbing — all with certified technicians,
-                    90-day warranty, and transparent pricing.
+                    and transparent pricing.
                 </p>
 
                 <div class="hero-actions">
@@ -150,10 +150,6 @@ include 'partials/navbar.php';
                 <span>Same-Day Service</span>
             </div>
             <div class="trust-divider"></div>
-            <div class="trust-item">
-                <i class="fas fa-shield-alt"></i>
-                <span>90-Day Warranty</span>
-            </div>
             <div class="trust-divider"></div>
             <div class="trust-item">
                 <i class="fas fa-rupee-sign"></i>
@@ -194,7 +190,7 @@ include 'partials/navbar.php';
                 <div class="service-icon"><i class="fas fa-snowflake"></i></div>
                 <h3>AC Repair</h3>
                 <p>Not cooling, gas leak, PCB fault, water dripping — all AC issues fixed.</p>
-                <div class="service-card-price"><span class="badge badge-blue">From ₹399</span></div>
+                <div class="service-card-price"><span class="badge badge-blue">AC Repair</span></div>
                 <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
             </a>
 
@@ -202,7 +198,7 @@ include 'partials/navbar.php';
                 <div class="service-icon"><i class="fas fa-tools"></i></div>
                 <h3>AC Installation</h3>
                 <p>Split, window, cassette AC installation by brand-certified engineers.</p>
-                <div class="service-card-price"><span class="badge badge-blue">From ₹799</span></div>
+                <div class="service-card-price"><span class="badge badge-blue">AC Installation</span></div>
                 <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
             </a>
 
@@ -210,50 +206,26 @@ include 'partials/navbar.php';
                 <div class="service-icon"><i class="fas fa-broom"></i></div>
                 <h3>AC Maintenance</h3>
                 <p>Deep cleaning, filter wash, coil cleaning — restores full cooling efficiency.</p>
-                <div class="service-card-price"><span class="badge badge-blue">From ₹499</span></div>
+                <div class="service-card-price"><span class="badge badge-blue">AC Maintenance</span></div>
                 <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
             </a>
 
             <a href="/services.php#appliances" class="service-card green">
                 <div class="service-icon"><i class="fas fa-temperature-low"></i></div>
-                <h3>Refrigerator Repair</h3>
+                <h3>Thermostat Repair</h3>
                 <p>Cooling issues, compressor, thermostat — all fridge brands serviced.</p>
-                <div class="service-card-price"><span class="badge badge-green">From ₹399</span></div>
+                <div class="service-card-price"><span class="badge badge-green">Thermostat Repair</span></div>
                 <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
             </a>
 
             <a href="/services.php#appliances" class="service-card green">
                 <div class="service-icon"><i class="fas fa-sync-alt"></i></div>
-                <h3>Washing Machine</h3>
+                <h3>Compressor Issue</h3>
                 <p>Front / top load, drum, motor, PCB repair at your doorstep.</p>
-                <div class="service-card-price"><span class="badge badge-green">From ₹399</span></div>
+                <div class="service-card-price"><span class="badge badge-green">Compressor Issue</span></div>
                 <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
             </a>
-
-            <a href="/services.php#appliances" class="service-card green">
-                <div class="service-icon"><i class="fas fa-shower"></i></div>
-                <h3>Geyser / Water Heater</h3>
-                <p>Not heating, thermostat, element replacement, new installation.</p>
-                <div class="service-card-price"><span class="badge badge-green">From ₹349</span></div>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
-            </a>
-
-            <a href="/services.php#electrical" class="service-card amber">
-                <div class="service-icon"><i class="fas fa-plug"></i></div>
-                <h3>Electrical Services</h3>
-                <p>Wiring, switchboard, fan fitting, MCB, inverter — certified electricians.</p>
-                <div class="service-card-price"><span class="badge badge-amber">From ₹199</span></div>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
-            </a>
-
-            <a href="/services.php#plumbing" class="service-card amber">
-                <div class="service-icon"><i class="fas fa-faucet"></i></div>
-                <h3>Plumbing Services</h3>
-                <p>Pipe leaks, tap fitting, drain cleaning, tank repair — all plumbing work.</p>
-                <div class="service-card-price"><span class="badge badge-amber">From ₹199</span></div>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
-            </a>
-
+ 
         </div><!-- /services-grid -->
 
         <div class="text-center" style="margin-top:var(--space-40)">
@@ -329,15 +301,15 @@ include 'partials/navbar.php';
                     EZAC Service By The Numbers
                 </div>
                 <p style="color:rgba(255,255,255,0.75);font-size:var(--text-base);margin-bottom:var(--space-32)">
-                    A decade of trusted home services across Bihar, Jharkhand &amp; Uttar Pradesh.
+                    A decade of trusted home services across New Delhi &amp; NCR.
                 </p>
                 <div class="stats-grid">
                     <div class="stat-item">
-                        <div class="stat-num">50K+</div>
+                        <div class="stat-num">5K+</div>
                         <div class="stat-lbl">Homes Served</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-num">200+</div>
+                        <div class="stat-num">20+</div>
                         <div class="stat-lbl">Technicians</div>
                     </div>
                     <div class="stat-item">
@@ -351,10 +323,10 @@ include 'partials/navbar.php';
                 </div>
                 <div
                     style="background:rgba(255,255,255,0.12);border-radius:var(--radius-md);padding:var(--space-20);text-align:center;margin-top:var(--space-24)">
-                    <div style="font-size:var(--text-sm);opacity:0.8;margin-bottom:6px">Serving 30+ cities across 3
+                    <div style="font-size:var(--text-sm);opacity:0.8;margin-bottom:6px">Serving 10+ cities across 3
                         states</div>
                     <div style="font-weight:700;font-size:var(--text-base)">
-                        Patna · Madhepura · Bhagalpur · Muzaffarpur · Saharsa · Darbhanga & more
+                        New Delhi · NCR & more
                     </div>
                 </div>
             </div>
@@ -373,7 +345,7 @@ include 'partials/navbar.php';
                         <div class="why-icon"><i class="fas fa-user-shield"></i></div>
                         <div>
                             <h4>Background-Verified Team</h4>
-                            <p>All technicians are Aadhaar-verified and police-checked before joining.</p>
+                            <p>All Verified technicians for service.</p>
                         </div>
                     </div>
                     <div class="why-item">
@@ -383,13 +355,7 @@ include 'partials/navbar.php';
                             <p>Trained and certified for all major appliance brands &amp; models.</p>
                         </div>
                     </div>
-                    <div class="why-item">
-                        <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
-                        <div>
-                            <h4>90-Day Service Warranty</h4>
-                            <p>Free re-service if the same issue returns within 90 days. No questions asked.</p>
-                        </div>
-                    </div>
+                    
                     <div class="why-item">
                         <div class="why-icon"><i class="fas fa-rupee-sign"></i></div>
                         <div>
@@ -457,7 +423,7 @@ include 'partials/navbar.php';
         <div class="rating-summary">
             <div class="rating-big">4.9</div>
             <div class="rating-stars-big">★★★★★</div>
-            <div class="rating-count">Based on 50,000+ reviews</div>
+            <div class="rating-count">Based on 5000+ reviews</div>
         </div>
 
         <div class="reviews-grid">
@@ -470,7 +436,7 @@ include 'partials/navbar.php';
           'text'    => 'My AC stopped cooling in peak summer. EZAC sent a technician within 2 hours. He diagnosed a gas leak, fixed it professionally, and charged exactly what was quoted. Excellent!',
           'initials'=> 'RK',
           'name'    => 'Rajesh Kumar',
-          'loc'     => 'Patna, Bihar',
+          'loc'     => 'New Delhi',
           'color'   => '#0D6EFD',
         ],
         [
@@ -479,7 +445,7 @@ include 'partials/navbar.php';
           'text'    => 'Washing machine drum stopped spinning. The technician had the spare part with him and completed the repair in under an hour. Very professional and punctual!',
           'initials'=> 'PS',
           'name'    => 'Priya Sharma',
-          'loc'     => 'Bhagalpur, Bihar',
+          'loc'     => 'NCR',
           'color'   => '#00B894',
         ],
         [
@@ -488,37 +454,11 @@ include 'partials/navbar.php';
           'text'    => 'Got my new 1.5 ton split AC installed by EZAC. The team was punctual, clean, and very knowledgeable. They explained optimal placement and completed the job neatly.',
           'initials'=> 'AM',
           'name'    => 'Amit Mishra',
-          'loc'     => 'Muzaffarpur, Bihar',
+          'loc'     => 'New Delhi',
           'color'   => '#FFC107',
           'textColor'=> '#333',
         ],
-        [
-          'tag'     => 'Refrigerator',
-          'stars'   => 5,
-          'text'    => 'Fridge wasn\'t cooling for days. Called EZAC and the technician came next morning. Compressor issue diagnosed and fixed in 3 hours. The 90-day warranty gives great peace of mind!',
-          'initials'=> 'SD',
-          'name'    => 'Sunita Devi',
-          'loc'     => 'Saharsa, Bihar',
-          'color'   => '#6610f2',
-        ],
-        [
-          'tag'     => 'Electrical',
-          'stars'   => 5,
-          'text'    => 'Had a short circuit issue. The electrician was thorough, identified the fault, replaced damaged wiring safely, and even checked the entire panel. Great safety awareness.',
-          'initials'=> 'MK',
-          'name'    => 'Mohan Kumar',
-          'loc'     => 'Madhepura, Bihar',
-          'color'   => '#dc3545',
-        ],
-        [
-          'tag'     => 'Plumbing',
-          'stars'   => 5,
-          'text'    => 'Bathroom tap was leaking badly. The plumber arrived on time, fixed it with quality fittings, and left no mess. Will definitely book again for all future service needs.',
-          'initials'=> 'AN',
-          'name'    => 'Anita Nanda',
-          'loc'     => 'Darbhanga, Bihar',
-          'color'   => '#fd7e14',
-        ],
+        
       ];
       ?>
 
@@ -729,8 +669,8 @@ include 'partials/navbar.php';
                 <i class="fas fa-envelope"></i> Contact Us
             </a>
             &nbsp;
-            <a href="tel:+918003001234" class="btn btn-ghost">
-                <i class="fas fa-phone"></i> +91-800-300-1234
+            <a href="tel:+917827464409" class="btn btn-ghost">
+                <i class="fas fa-phone"></i> +91-782-746-4409
             </a>
         </div>
 
