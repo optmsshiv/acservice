@@ -72,7 +72,7 @@ include 'partials/navbar.php';
             within <strong>30 minutes</strong> to confirm the technician
             name, arrival time, and service details.<br><br>
             For urgent help, call:
-            <strong><a href="tel:+918003001234">+91-800-300-1234</a></strong>
+            <strong><a href="tel:+917827464409">+91-782-746-4409</a></strong>
           </p>
           <div
             style="display:flex;gap:var(--space-12);flex-wrap:wrap;justify-content:center;margin-top:var(--space-24)">
@@ -232,7 +232,7 @@ include 'partials/navbar.php';
           <div class="form-row">
             <div class="form-group">
               <label for="b-city">City</label>
-              <input type="text" id="b-city" name="city" placeholder="e.g. Patna, Madhepura">
+              <input type="text" id="b-city" name="city" placeholder="e.g. Delhi, Noida, Gurgaon">
             </div>
             <div class="form-group">
               <label for="b-pincode">Pincode</label>
@@ -325,10 +325,10 @@ include 'partials/navbar.php';
           <div class="sidebar-call-icon"><i class="fas fa-phone"></i></div>
           <h3>Prefer to Call?</h3>
           <p>Talk to our service advisor directly for instant booking.</p>
-          <a href="tel:+918003001234" class="btn btn-white btn-block" style="margin-top:var(--space-16)">
-            <i class="fas fa-phone"></i> +91-800-300-1234
+          <a href="tel:+917827464409" class="btn btn-white btn-block" style="margin-top:var(--space-16)">
+            <i class="fas fa-phone"></i> +91-782-746-4409
           </a>
-          <a href="https://wa.me/918003001234" target="_blank" rel="noopener" class="btn btn-whatsapp btn-block"
+          <a href="https://wa.me/917827464409" target="_blank" rel="noopener" class="btn btn-whatsapp btn-block"
             style="margin-top:var(--space-10, 10px)">
             <i class="fab fa-whatsapp"></i> WhatsApp Us
           </a>
@@ -389,7 +389,7 @@ include 'partials/navbar.php';
             <div class="avatar" style="width:36px;height:36px;font-size:13px;background:var(--blue)">RK</div>
             <div>
               <strong>Rajesh Kumar</strong>
-              <span>Patna, Bihar</span>
+              <span>Dwarka, Delhi</span>
             </div>
           </div>
         </div>
