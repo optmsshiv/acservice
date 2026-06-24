@@ -173,31 +173,55 @@ include 'partials/navbar.php';
         <div class="services-grid">
 
             <a href="/services.php#ac-service" class="service-card">
-                <div class="service-icon"><i class="fas fa-wind"></i></div>
+                <div class="sc-top">
+                    <div class="service-icon"><i class="fas fa-wind"></i></div>
+                    <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+                </div>
                 <h3>AC Service</h3>
                 <p>Deep cleaning, filter wash, coil cleaning — restores full cooling efficiency for window &amp; split ACs.</p>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
+                <div class="sc-footer">
+                    <span class="sc-tag">Window &amp; Split AC</span>
+                    <span class="sc-book">Book Now →</span>
+                </div>
             </a>
 
             <a href="/services.php#ac-repair" class="service-card">
-                <div class="service-icon"><i class="fas fa-snowflake"></i></div>
+                <div class="sc-top">
+                    <div class="service-icon"><i class="fas fa-snowflake"></i></div>
+                    <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+                </div>
                 <h3>AC Repair</h3>
                 <p>Not cooling, gas leak, PCB fault, water dripping, compressor issue — all AC faults fixed fast.</p>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
+                <div class="sc-footer">
+                    <span class="sc-tag">All Brands Covered</span>
+                    <span class="sc-book">Book Now →</span>
+                </div>
             </a>
 
             <a href="/services.php#ac-gas-refill" class="service-card">
-                <div class="service-icon"><i class="fas fa-gas-pump"></i></div>
+                <div class="sc-top">
+                    <div class="service-icon"><i class="fas fa-gas-pump"></i></div>
+                    <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+                </div>
                 <h3>AC Gas Refill</h3>
                 <p>R-22, R-32, R-410A refrigerant refilling with leak detection — restores peak cooling performance.</p>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
+                <div class="sc-footer">
+                    <span class="sc-tag">R-22 · R-32 · R-410A</span>
+                    <span class="sc-book">Book Now →</span>
+                </div>
             </a>
 
             <a href="/services.php#ac-installation" class="service-card">
-                <div class="service-icon"><i class="fas fa-hammer"></i></div>
+                <div class="sc-top">
+                    <div class="service-icon"><i class="fas fa-hammer"></i></div>
+                    <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+                </div>
                 <h3>AC Installation</h3>
                 <p>Split &amp; window AC installation by brand-certified engineers — with test run and full demo.</p>
-                <div class="service-card-link">Book Now <i class="fas fa-arrow-right"></i></div>
+                <div class="sc-footer">
+                    <span class="sc-tag">Split &amp; Window AC</span>
+                    <span class="sc-book">Book Now →</span>
+                </div>
             </a>
 
         </div><!-- /services-grid -->
@@ -395,71 +419,81 @@ include 'partials/navbar.php';
 
         <!-- Rating Summary -->
         <div class="rating-summary">
-            <div class="rating-big">4.9</div>
-            <div class="rating-stars-big">★★★★★</div>
-            <div class="rating-count">Based on 5000+ reviews</div>
+            <div class="rating-summary-inner">
+                <div class="rating-left">
+                    <div class="rating-big">4.9</div>
+                    <div class="rating-stars-big">★★★★★</div>
+                    <div class="rating-count">Based on 5,000+ reviews</div>
+                </div>
+                <div class="rating-bars">
+                    <div class="rating-bar-row"><span>5★</span><div class="bar-track"><div class="bar-fill" style="width:88%"></div></div><span>88%</span></div>
+                    <div class="rating-bar-row"><span>4★</span><div class="bar-track"><div class="bar-fill" style="width:9%"></div></div><span>9%</span></div>
+                    <div class="rating-bar-row"><span>3★</span><div class="bar-track"><div class="bar-fill" style="width:2%"></div></div><span>2%</span></div>
+                    <div class="rating-bar-row"><span>2★</span><div class="bar-track"><div class="bar-fill" style="width:1%"></div></div><span>1%</span></div>
+                    <div class="rating-bar-row"><span>1★</span><div class="bar-track"><div class="bar-fill" style="width:0%"></div></div><span>0%</span></div>
+                </div>
+                <div class="rating-platform">
+                    <div class="platform-badge"><i class="fab fa-google"></i><span>Google Reviews</span></div>
+                    <div class="platform-badge"><i class="fas fa-check-circle"></i><span>Verified Bookings</span></div>
+                </div>
+            </div>
         </div>
 
         <div class="reviews-grid">
-
             <?php
-      $reviews = [
-        [
-          'tag'     => 'AC Repair',
-          'stars'   => 5,
-          'text'    => 'My AC stopped cooling in peak summer. EZAC sent a technician within 2 hours. He diagnosed a gas leak, fixed it professionally, and charged exactly what was quoted. Excellent!',
-          'initials'=> 'RK',
-          'name'    => 'Rajesh Kumar',
-          'loc'     => 'New Delhi',
-          'color'   => '#0D6EFD',
-        ],
-        [
-          'tag'     => 'Washing Machine',
-          'stars'   => 5,
-          'text'    => 'Washing machine drum stopped spinning. The technician had the spare part with him and completed the repair in under an hour. Very professional and punctual!',
-          'initials'=> 'PS',
-          'name'    => 'Priya Sharma',
-          'loc'     => 'NCR',
-          'color'   => '#00B894',
-        ],
-        [
-          'tag'     => 'AC Installation',
-          'stars'   => 5,
-          'text'    => 'Got my new 1.5 ton split AC installed by EZAC. The team was punctual, clean, and very knowledgeable. They explained optimal placement and completed the job neatly.',
-          'initials'=> 'AM',
-          'name'    => 'Amit Mishra',
-          'loc'     => 'New Delhi',
-          'color'   => '#FFC107',
-          'textColor'=> '#333',
-        ],
-        
-      ];
-      ?>
+            $reviews = [
+                [
+                    'tag'      => 'AC Repair',
+                    'stars'    => 5,
+                    'text'     => 'My AC stopped cooling in peak summer. EZAC sent a technician within 2 hours. He diagnosed a gas leak, fixed it professionally, and charged exactly what was quoted. Excellent!',
+                    'initials' => 'RK',
+                    'name'     => 'Rajesh Kumar',
+                    'loc'      => 'Dwarka, New Delhi',
+                    'color'    => '#0D6EFD',
+                    'date'     => 'June 2025',
+                ],
+                [
+                    'tag'      => 'AC Gas Refill',
+                    'stars'    => 5,
+                    'text'     => 'AC was running but not cooling at all. EZAC technician came the same day, found low refrigerant, refilled R-32 gas and it\'s working like new. Super fast and honest pricing!',
+                    'initials' => 'PS',
+                    'name'     => 'Priya Sharma',
+                    'loc'      => 'Noida, NCR',
+                    'color'    => '#00B894',
+                    'date'     => 'May 2025',
+                ],
+                [
+                    'tag'      => 'AC Installation',
+                    'stars'    => 5,
+                    'text'     => 'Got my new 1.5 ton split AC installed by EZAC. The team was punctual, clean, and very knowledgeable. They explained optimal placement and completed the job neatly. Highly recommend!',
+                    'initials' => 'AM',
+                    'name'     => 'Amit Mishra',
+                    'loc'      => 'Gurgaon, NCR',
+                    'color'    => '#7c3aed',
+                    'date'     => 'April 2025',
+                ],
+            ];
+            ?>
 
             <?php foreach ($reviews as $r): ?>
             <div class="review-card">
-                <div class="review-service-tag">
-                    <?php echo htmlspecialchars($r['tag']); ?>
+                <div class="review-card-top">
+                    <div class="review-service-tag"><?php echo htmlspecialchars($r['tag']); ?></div>
+                    <div class="review-date"><?php echo $r['date']; ?></div>
                 </div>
-                <div class="stars">
-                    <?php echo str_repeat('★', $r['stars']); ?>
+                <div class="review-stars">
+                    <?php for($i=0;$i<$r['stars'];$i++) echo '<i class="fas fa-star"></i>'; ?>
                 </div>
-                <p class="review-text">"
-                    <?php echo htmlspecialchars($r['text']); ?>"
-                </p>
+                <p class="review-text">"<?php echo htmlspecialchars($r['text']); ?>"</p>
                 <div class="reviewer">
-                    <div class="avatar"
-                        style="background:<?php echo $r['color']; ?>;<?php echo isset($r['textColor']) ? 'color:'.$r['textColor'] : ''; ?>">
+                    <div class="avatar" style="background:<?php echo $r['color']; ?>">
                         <?php echo htmlspecialchars($r['initials']); ?>
                     </div>
                     <div class="reviewer-info">
-                        <span class="name">
-                            <?php echo htmlspecialchars($r['name']); ?>
-                        </span>
-                        <span class="loc">
-                            <?php echo htmlspecialchars($r['loc']); ?>
-                        </span>
+                        <span class="name"><?php echo htmlspecialchars($r['name']); ?></span>
+                        <span class="loc"><i class="fas fa-map-marker-alt"></i> <?php echo htmlspecialchars($r['loc']); ?></span>
                     </div>
+                    <div class="review-verified"><i class="fas fa-check-circle"></i> Verified</div>
                 </div>
             </div>
             <?php endforeach; ?>
@@ -1005,53 +1039,361 @@ include 'partials/navbar.php';
         gap: var(--space-24);
     }
 
-    /* Remove green variant on service cards — all blue for AC */
-    #services .service-card.green .service-icon {
-        background: var(--blue-light);
-        color: var(--blue);
-    }
-    #services .service-card.green::before {
-        background: var(--blue);
-    }
-    #services .service-card.green:hover .service-icon {
-        background: var(--blue);
-        color: #fff;
+    /* ══ PREMIUM SERVICE CARD ══ */
+    #services .service-card {
+        background: #fff;
+        border: 1.5px solid var(--gray-200);
+        border-radius: 20px;
+        padding: 28px 24px 24px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.28s ease;
+        cursor: pointer;
     }
 
-    /* Service card description always visible */
+    /* Gradient top border on hover */
+    #services .service-card::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, var(--blue), #60a5fa);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+    }
+    #services .service-card:hover::before { transform: scaleX(1); }
+
+    /* Subtle background glow on hover */
+    #services .service-card::after {
+        content: '';
+        position: absolute;
+        top: -60px; right: -60px;
+        width: 160px; height: 160px;
+        background: radial-gradient(circle, rgba(13,110,253,0.06) 0%, transparent 70%);
+        border-radius: 50%;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+    #services .service-card:hover::after { opacity: 1; }
+
+    #services .service-card:hover {
+        box-shadow: 0 12px 40px rgba(13,110,253,0.12);
+        transform: translateY(-5px);
+        border-color: rgba(13,110,253,0.25);
+    }
+
+    /* Card top row: icon + arrow */
+    .sc-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    /* Icon */
+    #services .service-icon {
+        width: 56px;
+        height: 56px;
+        background: var(--blue-light);
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: var(--blue);
+        transition: all 0.28s ease;
+        flex-shrink: 0;
+    }
+    #services .service-card:hover .service-icon {
+        background: var(--blue);
+        color: #fff;
+        transform: scale(1.08) rotate(-4deg);
+    }
+
+    /* Arrow top-right */
+    .sc-arrow {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: var(--gray-100);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        color: var(--gray-400);
+        transition: all 0.25s ease;
+        flex-shrink: 0;
+    }
+    #services .service-card:hover .sc-arrow {
+        background: var(--blue);
+        color: #fff;
+        transform: rotate(-45deg);
+    }
+
+    /* Title */
+    #services .service-card h3 {
+        font-size: 17px;
+        font-weight: 800;
+        color: var(--gray-900);
+        margin-bottom: 10px;
+        line-height: 1.3;
+    }
+
+    /* Description */
     #services .service-card p {
-        display: block;
-        font-size: var(--text-sm);
-        color: var(--gray-600);
-        line-height: 1.6;
+        font-size: 13.5px;
+        color: var(--gray-500);
+        line-height: 1.65;
+        margin: 0 0 20px;
+        flex: 1;
+    }
+
+    /* Card footer: tag + book */
+    .sc-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 16px;
+        border-top: 1px solid var(--gray-100);
+        margin-top: auto;
+    }
+    .sc-tag {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--blue);
+        background: var(--blue-light);
+        padding: 4px 10px;
+        border-radius: 20px;
+        letter-spacing: 0.3px;
+    }
+    .sc-book {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--blue);
+        transition: gap 0.2s;
+    }
+    #services .service-card:hover .sc-book {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+
+    /* ══ PREMIUM REVIEW CARDS ══ */
+
+    /* Rating summary redesign */
+    .rating-summary { margin-bottom: var(--space-48); }
+    .rating-summary-inner {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        background: rgba(255,255,255,0.07);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 20px;
+        padding: 32px 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rating-left { text-align: center; }
+    .rating-big {
+        font-size: 72px;
+        font-weight: 900;
+        color: #fff;
+        line-height: 1;
+        margin-bottom: 6px;
+    }
+    .rating-stars-big {
+        font-size: 24px;
+        color: var(--amber);
+        letter-spacing: 3px;
+        margin-bottom: 6px;
+    }
+    .rating-count { font-size: 13px; color: rgba(255,255,255,0.5); }
+
+    /* Rating bars */
+    .rating-bars {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        min-width: 200px;
+    }
+    .rating-bar-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+        color: rgba(255,255,255,0.65);
+        font-weight: 600;
+    }
+    .rating-bar-row span:first-child { width: 20px; text-align: right; }
+    .rating-bar-row span:last-child  { width: 28px; }
+    .bar-track {
+        flex: 1;
+        height: 6px;
+        background: rgba(255,255,255,0.12);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .bar-fill {
+        height: 100%;
+        background: linear-gradient(90deg, var(--amber), #fbbf24);
+        border-radius: 10px;
+    }
+
+    /* Platform badges */
+    .rating-platform { display: flex; flex-direction: column; gap: 10px; }
+    .platform-badge {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(255,255,255,0.10);
+        border: 1px solid rgba(255,255,255,0.15);
+        border-radius: 10px;
+        padding: 10px 16px;
+        font-size: 13px;
+        font-weight: 600;
+        color: rgba(255,255,255,0.90);
+    }
+    .platform-badge i { font-size: 16px; color: var(--amber); }
+
+    /* Review cards redesign */
+    .reviews-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+    .review-card {
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.10);
+        border-radius: 20px;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        transition: all 0.25s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    .review-card::before {
+        content: '\201C';
+        position: absolute;
+        top: -10px; right: 20px;
+        font-size: 100px;
+        font-family: Georgia, serif;
+        color: rgba(255,255,255,0.05);
+        line-height: 1;
+        pointer-events: none;
+    }
+    .review-card:hover {
+        background: rgba(255,255,255,0.10);
+        border-color: rgba(255,255,255,0.20);
+        transform: translateY(-4px);
+        box-shadow: 0 16px 40px rgba(0,0,0,0.3);
+    }
+
+    /* Card top row */
+    .review-card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .review-service-tag {
+        background: rgba(13,110,253,0.25);
+        border: 1px solid rgba(13,110,253,0.4);
+        color: rgba(255,255,255,0.95);
+        font-size: 11px;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 20px;
+        letter-spacing: 0.3px;
+    }
+    .review-date {
+        font-size: 11px;
+        color: rgba(255,255,255,0.35);
+        font-weight: 500;
+    }
+
+    /* Stars */
+    .review-stars { display: flex; gap: 3px; }
+    .review-stars i { color: var(--amber); font-size: 14px; }
+
+    /* Review text */
+    .review-text {
+        font-size: 14px;
+        color: rgba(255,255,255,0.82);
+        line-height: 1.75;
+        font-style: italic;
+        flex: 1;
         margin: 0;
     }
 
-    /* Price badge row spacing */
-    .service-card-price {
-        margin-top: var(--space-12);
-        margin-bottom: var(--space-4);
+    /* Reviewer row */
+    .reviewer {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-top: 14px;
+        border-top: 1px solid rgba(255,255,255,0.08);
     }
-
-    /* Book Now link color fix */
-    .service-card-link {
-        color: var(--blue);
+    .avatar {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        flex-shrink: 0;
+        border: 2px solid rgba(255,255,255,0.2);
     }
-
-    /* Quick book grid: 2x2 (4 items) */
-    .service-quick-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
+    .reviewer-info { flex: 1; }
+    .reviewer-info .name {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 2px;
     }
+    .reviewer-info .loc {
+        font-size: 12px;
+        color: rgba(255,255,255,0.45);
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .reviewer-info .loc i { font-size: 10px; }
+    .review-verified {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--green);
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        flex-shrink: 0;
+    }
+    .review-verified i { font-size: 13px; }
 
-    /* ── RESPONSIVE: services section ── */
+    /* ── RESPONSIVE: services + reviews ── */
     @media (max-width: 1024px) {
-        #services .services-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
+        #services .services-grid { grid-template-columns: repeat(2, 1fr); }
+        .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+        .rating-summary-inner { gap: 28px; padding: 24px; }
     }
-    @media (max-width: 640px) {
-        #services .services-grid {
-            grid-template-columns: repeat(1, 1fr);
-        }
+    @media (max-width: 768px) {
+        #services .services-grid { grid-template-columns: repeat(2, 1fr); }
+        .reviews-grid { grid-template-columns: 1fr; }
+        .rating-summary-inner { flex-direction: column; align-items: center; text-align: center; }
+        .rating-bars { width: 100%; max-width: 280px; }
+        .rating-platform { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+    }
+    @media (max-width: 480px) {
+        #services .services-grid { grid-template-columns: 1fr; }
     }
 </style>
