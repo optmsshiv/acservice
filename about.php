@@ -261,51 +261,56 @@ include 'partials/navbar.php';
           'color' => 'blue',
           'title' => 'Honesty First',
           'desc'  => 'We show you the problem, explain the fix, and quote the price — before touching anything. No work begins without your approval.',
+          'tag'   => 'Transparent',
         ],
         [
           'icon'  => 'fa-clock',
           'color' => 'green',
           'title' => 'Respect Your Time',
           'desc'  => 'We show up when we say we will. You get the technician\'s name, photo, and live ETA. No waiting around all day.',
+          'tag'   => 'On-Time Always',
         ],
         [
           'icon'  => 'fa-tools',
           'color' => 'amber',
           'title' => 'Right First Time',
-          'desc'  => 'Our 98% first-fix rate isn\'t an accident. Technicians carry the right parts, use proper tools, and follow systematic diagnosis.',
+          'desc'  => 'Our high first-fix rate isn\'t an accident. Technicians carry the right parts, use proper tools, and follow systematic diagnosis.',
+          'tag'   => '98% Fix Rate',
         ],
         [
-          'icon'  => 'fa-shield-alt',
+          'icon'  => 'fa-certificate',
           'color' => 'blue',
-          'title' => 'Stand Behind Our Work',
-          'desc'  => 'Every repair comes with a 90-day warranty. If the same issue returns, we fix it free. That\'s our promise — in writing.',
+          'title' => 'Quality Guaranteed',
+          'desc'  => 'We use only OEM-grade spare parts and follow brand-certified procedures. Every job ends with a thorough test run — no shortcuts.',
+          'tag'   => 'Genuine Parts',
         ],
         [
           'icon'  => 'fa-heart',
           'color' => 'green',
           'title' => 'Customer Above All',
           'desc'  => 'We measure success by whether you\'d recommend us to your neighbour. Every decision we make starts with that question.',
+          'tag'   => '4.9★ Rated',
         ],
         [
           'icon'  => 'fa-leaf',
           'color' => 'amber',
           'title' => 'Safe &amp; Responsible',
           'desc'  => 'We follow safe gas handling, proper electrical protocols, and always leave your home as clean as we found it.',
+          'tag'   => 'Clean &amp; Safe',
         ],
       ];
       ?>
 
       <?php foreach ($values as $v): ?>
       <div class="value-card">
-        <div class="value-icon <?php echo $v['color']; ?>">
-          <i class="fas <?php echo $v['icon']; ?>"></i>
+        <div class="value-card-top">
+          <div class="value-icon <?php echo $v['color']; ?>">
+            <i class="fas <?php echo $v['icon']; ?>"></i>
+          </div>
+          <span class="value-tag <?php echo $v['color']; ?>"><?php echo $v['tag']; ?></span>
         </div>
-        <h3>
-          <?php echo $v['title']; ?>
-        </h3>
-        <p>
-          <?php echo $v['desc']; ?>
-        </p>
+        <h3><?php echo $v['title']; ?></h3>
+        <p><?php echo $v['desc']; ?></p>
       </div>
       <?php endforeach; ?>
 
@@ -801,77 +806,114 @@ include 'partials/navbar.php';
   }
 
   /* ── VALUES ── */
+  /* ══ VALUES GRID — PREMIUM REDESIGN ══ */
   .values-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-24);
+    gap: 20px;
   }
 
   .value-card {
     background: var(--white);
     border: 1.5px solid var(--gray-200);
-    border-radius: var(--radius-lg);
-    padding: var(--space-28) var(--space-24);
-    transition: var(--transition);
+    border-radius: 18px;
+    padding: 28px 24px;
+    transition: all 0.28s ease;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
+
+  /* Left accent bar */
+  .value-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: var(--blue);
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  .value-card:hover::before { transform: scaleY(1); }
+
+  /* Subtle glow bg */
+  .value-card::after {
+    content: '';
+    position: absolute;
+    bottom: -40px; right: -40px;
+    width: 120px; height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(13,110,253,0.05) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  .value-card:hover::after { opacity: 1; }
 
   .value-card:hover {
-    border-color: var(--blue-light);
-    box-shadow: var(--shadow-md);
-    transform: translateY(-3px);
+    border-color: rgba(13,110,253,0.25);
+    box-shadow: 0 10px 36px rgba(13,110,253,0.10);
+    transform: translateY(-4px);
   }
 
+  /* Top row: icon + tag */
+  .value-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+
+  /* Icon */
   .value-icon {
     width: 52px;
     height: 52px;
-    border-radius: var(--radius-md);
+    min-width: 52px;
+    border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 22px;
-    margin-bottom: var(--space-16);
+    transition: all 0.28s ease;
   }
+  .value-icon.blue  { background: var(--blue-light);  color: var(--blue); }
+  .value-icon.green { background: var(--green-light); color: var(--green-dark); }
+  .value-icon.amber { background: var(--amber-light); color: var(--amber-dark); }
 
-  .value-icon.blue {
-    background: var(--blue-light);
-    color: var(--blue);
-  }
+  .value-card:hover .value-icon.blue  { background: var(--blue);  color: #fff; transform: scale(1.08) rotate(-5deg); }
+  .value-card:hover .value-icon.green { background: var(--green); color: #fff; transform: scale(1.08) rotate(-5deg); }
+  .value-card:hover .value-icon.amber { background: var(--amber); color: var(--gray-900); transform: scale(1.08) rotate(-5deg); }
 
-  .value-icon.green {
-    background: var(--green-light);
-    color: var(--green-dark);
-  }
-
-  .value-icon.amber {
-    background: var(--amber-light);
-    color: var(--amber-dark);
-  }
-
-  .value-card:hover .value-icon.blue {
-    background: var(--blue);
-    color: #fff;
-  }
-
-  .value-card:hover .value-icon.green {
-    background: var(--green);
-    color: #fff;
-  }
-
-  .value-card:hover .value-icon.amber {
-    background: var(--amber);
-    color: var(--gray-900);
-  }
-
-  .value-card h3 {
-    font-size: var(--text-md);
+  /* Tag pill */
+  .value-tag {
+    font-size: 11px;
     font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+  .value-tag.blue  { background: var(--blue-light);  color: var(--blue); }
+  .value-tag.green { background: var(--green-light); color: var(--green-dark); }
+  .value-tag.amber { background: var(--amber-light); color: var(--amber-dark); }
+
+  /* Title */
+  .value-card h3 {
+    font-size: 16px;
+    font-weight: 800;
     color: var(--gray-900);
-    margin-bottom: var(--space-8);
+    margin-bottom: 10px;
+    line-height: 1.3;
   }
 
+  /* Description */
   .value-card p {
-    font-size: var(--text-sm);
-    color: var(--gray-600);
+    font-size: 13.5px;
+    color: var(--gray-500);
     line-height: 1.7;
     margin: 0;
   }
