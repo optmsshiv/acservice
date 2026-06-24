@@ -46,13 +46,15 @@ include 'partials/navbar.php';
                 </div>
             </div>
             <div class="page-hero-badges">
+                        <!-- Hero Badges 
                 <div class="hero-badge-item">
                     <i class="fas fa-shield-alt"></i>
                     <div>
                         <strong>90-Day Warranty</strong>
                         <span>On all repair services</span>
                     </div>
-                </div>
+                </div> -->
+
                 <div class="hero-badge-item">
                     <i class="fas fa-clock"></i>
                     <div>

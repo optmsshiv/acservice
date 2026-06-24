@@ -11,6 +11,7 @@ $current_page = $current_page ?? '';
 $nav_links = [
   'home'     => ['label' => 'Home',     'href' => '/'],
   'services' => ['label' => 'Services', 'href' => '/services.php'],
+  'pricing'  => ['label' => 'Pricing',  'href' => '/pricing.php'],
   'about'    => ['label' => 'About Us', 'href' => '/about.php'],
   'contact'  => ['label' => 'Contact',  'href' => '/contact.php'],
 ];
@@ -44,9 +45,9 @@ $nav_links = [
 
       <!-- DESKTOP RIGHT ACTIONS -->
       <div class="nav-actions">
-        <a href="tel:+917827464409" class="nav-phone" aria-label="Call EZAC Service">
+        <a href="tel:+918003001234" class="nav-phone" aria-label="Call EZAC Service">
           <i class="fas fa-phone" aria-hidden="true"></i>
-          <span>+91-782-746-4409</span>
+          <span>+91-800-300-1234</span>
         </a>
         <a href="/book.php" class="btn btn-primary btn-sm">
           <i class="fas fa-calendar-check" aria-hidden="true"></i>
@@ -104,7 +105,9 @@ $nav_links = [
       <a href="/services.php#plumbing"><i class="fas fa-faucet"></i> Plumbing</a>
     </div>
 
-    
+    <a href="/pricing.php" class="mobile-link <?php echo ($current_page==='pricing') ? 'active' : ''; ?>">
+      <i class="fas fa-rupee-sign" aria-hidden="true"></i> Pricing
+    </a>
     <a href="/about.php" class="mobile-link <?php echo ($current_page==='about') ? 'active' : ''; ?>">
       <i class="fas fa-info-circle" aria-hidden="true"></i> About Us
     </a>
@@ -118,10 +121,10 @@ $nav_links = [
     <a href="/book.php" class="btn btn-primary" style="width:100%;justify-content:center">
       <i class="fas fa-calendar-check"></i> Book a Service
     </a>
-    <a href="tel:+917827464409" class="btn btn-outline" style="width:100%;justify-content:center">
-      <i class="fas fa-phone"></i> Call +91-782-746-4409
+    <a href="tel:+918003001234" class="btn btn-outline" style="width:100%;justify-content:center">
+      <i class="fas fa-phone"></i> Call +91-800-300-1234
     </a>
-    <a href="https://wa.me/917827464409?text=Hi%20EZAC%2C%20I%20need%20home%20service"
+    <a href="https://wa.me/918003001234?text=Hi%20EZAC%2C%20I%20need%20home%20service"
        class="btn btn-whatsapp"
        target="_blank" rel="noopener">
       <i class="fab fa-whatsapp"></i> Chat on WhatsApp

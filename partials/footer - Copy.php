@@ -27,7 +27,9 @@ $current_year = date('Y');
 
           <!-- TRUST BADGES -->
           <div class="footer-badges">
-            <div class="footer-badge"><i class="fas fa-user-check"></i> Verified Service</div>
+            <div class="footer-badge"><i class="fas fa-shield-alt"></i> GST Registered</div>
+            <div class="footer-badge"><i class="fas fa-certificate"></i> ISO Aligned</div>
+            <div class="footer-badge"><i class="fas fa-user-check"></i> Verified Team</div>
           </div>
 
           <!-- SOCIAL LINKS -->
@@ -41,7 +43,7 @@ $current_year = date('Y');
             <a href="https://youtube.com/@ezacservice" class="social-btn" target="_blank" rel="noopener" aria-label="YouTube">
               <i class="fab fa-youtube"></i>
             </a>
-            <a href="https://wa.me/917827464409" class="social-btn social-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <a href="https://wa.me/918003001234" class="social-btn social-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
               <i class="fab fa-whatsapp"></i>
             </a>
           </div>
@@ -55,6 +57,10 @@ $current_year = date('Y');
             <li><a href="/service-ac.php#installation">AC Installation</a></li>
             <li><a href="/service-ac.php#cleaning">AC Deep Cleaning</a></li>
             <li><a href="/service-ac.php#gas">Gas Refilling</a></li>
+            <li><a href="/services.php#appliances">Refrigerator Repair</a></li>
+            <li><a href="/services.php#appliances">Washing Machine Repair</a></li>
+            <li><a href="/services.php#electrical">Electrical Services</a></li>
+            <li><a href="/services.php#plumbing">Plumbing Services</a></li>
           </ul>
         </div>
 
@@ -63,8 +69,12 @@ $current_year = date('Y');
           <h4 class="footer-col-title">Company</h4>
           <ul>
             <li><a href="/about.php">About Us</a></li>
+            <li><a href="/pricing.php">Pricing & Plans</a></li>
             <li><a href="/book.php">Book a Service</a></li>
             <li><a href="/contact.php">Contact Us</a></li>
+            <li><a href="/careers.php">Careers</a></li>
+            <li><a href="/blog/">Blog & Tips</a></li>
+            <li><a href="/franchise.php">Franchise</a></li>
           </ul>
         </div>
 
@@ -74,11 +84,11 @@ $current_year = date('Y');
           <ul class="footer-contact-list">
             <li>
               <i class="fas fa-phone"></i>
-              <a href="tel:+917827464409">+91-782-746-4409</a>
+              <a href="tel:+918003001234">+91-800-300-1234</a>
             </li>
             <li>
               <i class="fab fa-whatsapp"></i>
-              <a href="https://wa.me/917827464409" target="_blank" rel="noopener">WhatsApp Us</a>
+              <a href="https://wa.me/918003001234" target="_blank" rel="noopener">WhatsApp Us</a>
             </li>
             <li>
               <i class="fas fa-envelope"></i>
@@ -113,7 +123,7 @@ $current_year = date('Y');
       <div class="footer-bottom-inner">
         <p>
           © <?php echo $current_year; ?> EZAC Service. All rights reserved.
-          &nbsp;·&nbsp; Powered by <a href="https://ezacservice.in" target="_blank" rel="noopener">EZAC Service</a>
+          &nbsp;·&nbsp; GST: <strong>10AAACE1234F1Z5</strong>
           &nbsp;·&nbsp; Built by <a href="https://optms.co.in" target="_blank" rel="noopener">OPTMS Tech</a>
         </p>
         <div class="footer-bottom-links">
@@ -133,7 +143,7 @@ $current_year = date('Y');
 <div class="float-btns" aria-label="Quick contact buttons">
 
   <!-- WhatsApp (desktop + mobile) -->
-  <a href="https://wa.me/917827464409?text=Hi%20EZAC%2C%20I%20need%20home%20service"
+  <a href="https://wa.me/918003001234?text=Hi%20EZAC%2C%20I%20need%20home%20service"
      class="float-btn float-wa"
      target="_blank"
      rel="noopener"
@@ -143,7 +153,7 @@ $current_year = date('Y');
   </a>
 
   <!-- Call Now (mobile only — shown via CSS) -->
-  <a href="tel:+917827464409"
+  <a href="tel:+918003001234"
      class="float-btn float-call"
      aria-label="Call us now"
      title="Call Now">
