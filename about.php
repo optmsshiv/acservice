@@ -171,7 +171,7 @@ include 'partials/navbar.php';
         [
           'year'  => '2015',
           'title' => 'Founded in Madhepura',
-          'desc'  => 'Started with 3 technicians and a simple mission — honest AC repair at fair prices.',
+          'desc'  => 'Started with 3 technicians and a simple mission — honest, reliable AC repair.',
           'icon'  => 'fa-flag',
           'color' => 'blue',
         ],
@@ -260,7 +260,7 @@ include 'partials/navbar.php';
           'icon'  => 'fa-handshake',
           'color' => 'blue',
           'title' => 'Honesty First',
-          'desc'  => 'We show you the problem, explain the fix, and quote the price — before touching anything. No work begins without your approval.',
+          'desc'  => 'We show you the problem, explain the fix, and walk you through it — before touching anything. No work begins without your approval.',
         ],
         [
           'icon'  => 'fa-clock',
@@ -278,7 +278,7 @@ include 'partials/navbar.php';
           'icon'  => 'fa-shield-alt',
           'color' => 'blue',
           'title' => 'Stand Behind Our Work',
-          'desc'  => 'Every repair comes with a 90-day warranty. If the same issue returns, we fix it free. That\'s our promise — in writing.',
+          'desc'  => 'If the same issue comes back, we come back too — no questions asked. Accountability doesn\'t end when the technician leaves.',
         ],
         [
           'icon'  => 'fa-heart',
@@ -297,6 +297,7 @@ include 'partials/navbar.php';
 
       <?php foreach ($values as $v): ?>
       <div class="value-card">
+        <span class="value-accent <?php echo $v['color']; ?>"></span>
         <div class="value-icon <?php echo $v['color']; ?>">
           <i class="fas <?php echo $v['icon']; ?>"></i>
         </div>
@@ -333,7 +334,7 @@ include 'partials/navbar.php';
     <div class="team-grid" style="margin-bottom:var(--space-48)">
       <?php
       $leadership = [
-        ['initials'=>'AK','name'=>'Ajay Kumar',   'role'=>'Founder & CEO',          'color'=>'#0D6EFD','desc'=>'10+ years in appliance service industry. Founded EZAC at 26 with ₹50,000 and 3 technicians.'],
+        ['initials'=>'AK','name'=>'Ajay Kumar',   'role'=>'Founder & CEO',          'color'=>'#0D6EFD','desc'=>'10+ years in appliance service industry. Founded EZAC at 26 with just 3 technicians.'],
         ['initials'=>'RS','name'=>'Rohit Singh',   'role'=>'Head of Operations',     'color'=>'#00B894','desc'=>'Manages day-to-day operations across 30+ cities. Former operations manager at a national service chain.'],
         ['initials'=>'PM','name'=>'Pooja Mishra',  'role'=>'Customer Experience',    'color'=>'#6610f2','desc'=>'Leads our customer support and quality assurance team. Ensures every booking ends with a 5-star experience.'],
         ['initials'=>'SK','name'=>'Sanjay Kumar',  'role'=>'Head of Technicians',    'color'=>'#FFC107','textColor'=>'#333','desc'=>'Trains and certifies all EZAC technicians. Holds certification from LG, Samsung, and Daikin service academies.'],
@@ -808,17 +809,38 @@ include 'partials/navbar.php';
   }
 
   .value-card {
+    position: relative;
     background: var(--white);
     border: 1.5px solid var(--gray-200);
     border-radius: var(--radius-lg);
-    padding: var(--space-28) var(--space-24);
+    padding: var(--space-28) var(--space-24) var(--space-24);
+    overflow: hidden;
     transition: var(--transition);
   }
 
+  .value-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.35s ease;
+  }
+
+  .value-accent.blue   { background: var(--blue); }
+  .value-accent.green  { background: var(--green); }
+  .value-accent.amber  { background: var(--amber); }
+
   .value-card:hover {
-    border-color: var(--blue-light);
-    box-shadow: var(--shadow-md);
-    transform: translateY(-3px);
+    border-color: transparent;
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+  }
+
+  .value-card:hover .value-accent {
+    transform: scaleX(1);
   }
 
   .value-icon {
@@ -828,43 +850,51 @@ include 'partials/navbar.php';
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
-    margin-bottom: var(--space-16);
+    font-size: 21px;
+    margin-bottom: var(--space-20);
+    transition: var(--transition);
   }
 
   .value-icon.blue {
     background: var(--blue-light);
     color: var(--blue);
+    box-shadow: inset 0 0 0 1px rgba(13, 110, 253, 0.12);
   }
 
   .value-icon.green {
     background: var(--green-light);
     color: var(--green-dark);
+    box-shadow: inset 0 0 0 1px rgba(0, 184, 148, 0.14);
   }
 
   .value-icon.amber {
     background: var(--amber-light);
     color: var(--amber-dark);
+    box-shadow: inset 0 0 0 1px rgba(255, 193, 7, 0.25);
   }
 
   .value-card:hover .value-icon.blue {
     background: var(--blue);
     color: #fff;
+    box-shadow: var(--shadow-blue);
   }
 
   .value-card:hover .value-icon.green {
     background: var(--green);
     color: #fff;
+    box-shadow: var(--shadow-green);
   }
 
   .value-card:hover .value-icon.amber {
     background: var(--amber);
     color: var(--gray-900);
+    box-shadow: 0 4px 20px rgba(255, 193, 7, 0.30);
   }
 
   .value-card h3 {
     font-size: var(--text-md);
-    font-weight: 700;
+    font-weight: 800;
+    letter-spacing: -0.01em;
     color: var(--gray-900);
     margin-bottom: var(--space-8);
   }
