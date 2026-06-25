@@ -153,7 +153,7 @@ include 'partials/navbar.php';
 
 <!-- ══════════════════════════════════════════
      MILESTONES TIMELINE
-════════════════════════════════════════════ -->
+════════════════════════════════════════════
 <section class="section section-gray">
   <div class="container">
 
@@ -236,7 +236,7 @@ include 'partials/navbar.php';
     </div>
 
   </div>
-</section>
+</section>  -->
 
 <!-- ══════════════════════════════════════════
      OUR VALUES
