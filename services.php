@@ -39,7 +39,7 @@ include 'partials/navbar.php';
                     <a href="/book.php" class="btn btn-primary btn-lg">
                         <i class="fas fa-calendar-check"></i> Book a Service
                     </a>
-                    <a href="tel:+918003001234" class="btn btn-outline btn-lg">
+                    <a href="tel:+917827464409" class="btn btn-outline btn-lg">
                         <i class="fas fa-phone"></i> Call Now
                     </a>
                 </div>
@@ -111,9 +111,9 @@ include 'partials/navbar.php';
                 </div>
 
                 <picture>
-                    <source srcset="/images/services/ac-service.webp" type="image/webp">
+                    <source srcset="assets/images/services/ac-service.jpg" type="image/jpg">
                     <img
-                        src="/images/services/ac-service.jpg"
+                        src="assets/images/services/ac-service.jpg"
                         alt="AC servicing technician deep cleaning indoor unit in Delhi NCR — EZAC Service"
                         class="service-detail-img"
                         loading="lazy"
@@ -136,7 +136,7 @@ include 'partials/navbar.php';
                         <a href="/book.php?service=ac-service" class="btn btn-primary btn-block">
                             <i class="fas fa-calendar-check"></i> Book AC Service
                         </a>
-                        <a href="tel:+918003001234" class="btn btn-outline btn-block" style="margin-top:10px">
+                        <a href="tel:+917827464409" class="btn btn-outline btn-block" style="margin-top:10px">
                             <i class="fas fa-phone"></i> Call for Instant Booking
                         </a>
                     </div>
@@ -187,7 +187,7 @@ include 'partials/navbar.php';
                         <a href="/book.php?service=ac-repair" class="btn btn-green btn-block">
                             <i class="fas fa-calendar-check"></i> Book AC Repair
                         </a>
-                        <a href="tel:+918003001234" class="btn btn-green-outline btn-block" style="margin-top:10px">
+                        <a href="tel:+917827464409" class="btn btn-green-outline btn-block" style="margin-top:10px">
                             <i class="fas fa-phone"></i> Call for Urgent Repair
                         </a>
                     </div>
@@ -237,9 +237,9 @@ include 'partials/navbar.php';
                 </ul>
 
                 <picture>
-                    <source srcset="/images/services/ac-repair.webp" type="image/webp">
+                    <source srcset="assets/images/services/ac-repair.jpg" type="image/jpg">
                     <img
-                        src="/images/services/ac-repair.jpg"
+                        src="assets/images/services/ac-repair.jpg"
                         alt="AC repair technician diagnosing fault on split AC unit in Delhi NCR — EZAC Service"
                         class="service-detail-img"
                         loading="lazy"
@@ -316,9 +316,9 @@ include 'partials/navbar.php';
                 </div>
 
                 <picture>
-                    <source srcset="/images/services/ac-gas-refill.webp" type="image/webp">
+                    <source srcset="assets/images/services/ac-gas-refill.jpg" type="image/jpg">
                     <img
-                        src="/images/services/ac-gas-refill.jpg"
+                        src="assets/images/services/ac-gas-refill.jpg"
                         alt="AC gas refilling with refrigerant pressure gauge in Delhi NCR — EZAC Service"
                         class="service-detail-img"
                         loading="lazy"
@@ -341,7 +341,7 @@ include 'partials/navbar.php';
                         <a href="/book.php?service=gas-refill" class="btn btn-amber btn-block">
                             <i class="fas fa-calendar-check"></i> Book Gas Refill
                         </a>
-                        <a href="tel:+918003001234" class="btn btn-outline btn-block" style="margin-top:10px">
+                        <a href="tel:+917827464409" class="btn btn-outline btn-block" style="margin-top:10px">
                             <i class="fas fa-phone"></i> Call to Discuss
                         </a>
                     </div>
@@ -442,9 +442,9 @@ include 'partials/navbar.php';
                 </ul>
 
                 <picture>
-                    <source srcset="/images/services/ac-installation.webp" type="image/webp">
+                    <source srcset="assets/images/services/ac-installation.webp" type="image/webp">
                     <img
-                        src="/images/services/ac-installation.jpg"
+                        src="assets/images/services/ac-installation.webp"
                         alt="Certified technician installing split AC unit in Delhi NCR — EZAC Service"
                         class="service-detail-img"
                         loading="lazy"
@@ -554,7 +554,7 @@ include 'partials/navbar.php';
                 <a href="/book.php" class="btn btn-white btn-lg">
                     <i class="fas fa-calendar-check"></i> Book Now
                 </a>
-                <a href="tel:+918003001234" class="btn btn-white-outline btn-lg">
+                <a href="tel:+917827464409" class="btn btn-white-outline btn-lg">
                     <i class="fas fa-phone"></i> Call Us
                 </a>
             </div>
