@@ -99,7 +99,7 @@ $nav_links = [
 
     <!-- Services Sub-links — hidden by default, toggled by JS -->
     <div class="mobile-sublinks" id="servicesSublinks" style="display:none">
-      <a href="/service-ac.php"><i class="fas fa-snowflake"></i> AC Repair &amp; Install</a>
+      <a href="//services.php#ac-repair"><i class="fas fa-snowflake"></i> AC Repair &amp; Install</a>
       <a href="/services.php#gas-refill"><i class="fas fa-gas-pump"></i> AC Gas Refill</a>
       <a href="/services.php#ac-service"><i class="fas fa-wind"></i> AC Deep Cleaning</a>
       <a href="/services.php#ac-installation"><i class="fas fa-hammer"></i> AC Installation</a>
