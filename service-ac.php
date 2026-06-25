@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EZAC Service | AC Repair</title>
+  <title>AC Repair & Service in Delhi NCR | EZAC Service</title>
+  <meta name="description" content="Professional AC repair and maintenance in Delhi NCR. Same-day service for all brands — repairs, gas refill, installation. Certified technicians. Book online.">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/navbar.css">
   <link rel="stylesheet" href="assets/css/footer.css">
@@ -29,15 +30,24 @@
   <main>
     <section class="section page-head">
       <div class="container">
-        <span class="eyebrow">AC Service</span>
-        <h1>Air conditioner repair and maintenance</h1>
-        <p>Fast same-day support for air conditioners, including repairs, tune-ups and installations.</p>
+        <span class="eyebrow">AC Service — Delhi NCR</span>
+        <h1>Air conditioner repair and maintenance in Delhi NCR</h1>
+        <p>Fast same-day support across Delhi, Noida, Gurgaon &amp; Faridabad — repairs, tune-ups and installations.</p>
       </div>
     </section>
 
     <section class="section split-grid service-detail">
       <div>
-        <img src="assets/images/services/ac-repair.webp" alt="AC repair service">
+        <picture>
+          <source srcset="assets/images/services/ac-repair.webp" type="image/webp">
+          <img
+            src="assets/images/services/ac-repair.jpg"
+            alt="Certified AC repair technician servicing a split AC unit in Delhi NCR — EZAC Service"
+            loading="lazy"
+            width="600" height="400"
+            style="width:100%;border-radius:12px;object-fit:cover;"
+          >
+        </picture>
       </div>
       <div>
         <h2>Complete AC care from diagnosis to repair</h2>
@@ -85,7 +95,7 @@
     <div class="container footer-inner">
       <div class="brand-block">
         <a class="brand" href="index.html">EZAC</a>
-        <p>Reliable home services across the city.</p>
+        <p>Reliable AC services across Delhi NCR.</p>
       </div>
       <nav class="footer-nav">
         <a href="services.html">Services</a>

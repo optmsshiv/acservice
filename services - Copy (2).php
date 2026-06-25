@@ -5,8 +5,8 @@
    ============================================================ */
 
 $current_page     = 'services';
-$page_title       = 'AC Services — Repair, Gas Refill & Installation in Delhi NCR | EZAC Service';
-$page_description = 'Professional AC services in Delhi NCR — AC repair, gas refilling, installation for window and split ACs. All brands covered. Certified technicians, same-day service.';
+$page_title       = 'AC Services — Repair, Gas Refill & Installation | EZAC Service';
+$page_description = 'Professional AC services in Bihar — AC repair, gas refilling, installation for window and split ACs. All brands covered. Certified technicians, same-day service.';
 $page_canonical   = 'https://ezacservice.in/services.php';
 
 include 'partials/head.php';
@@ -33,7 +33,7 @@ include 'partials/navbar.php';
                 <h1>Expert AC Services<br>for Window &amp; Split ACs</h1>
                 <p>
                     Certified technicians for all AC brands — repair, gas refilling,
-                    and installation. Same-day service across Delhi NCR.
+                    and installation. Same-day service across Bihar.
                 </p>
                 <div class="page-hero-actions">
                     <a href="/book.php" class="btn btn-primary btn-lg">
@@ -49,7 +49,7 @@ include 'partials/navbar.php';
                     <i class="fas fa-clock"></i>
                     <div>
                         <strong>Same-Day Service</strong>
-                        <span>Available 7 AM – 10 PM across Delhi NCR</span>
+                        <span>Available 7 AM – 10 PM</span>
                     </div>
                 </div>
                 <div class="hero-badge-item">
@@ -109,17 +109,6 @@ include 'partials/navbar.php';
                     <div class="ac-chip"><i class="fas fa-grip-lines"></i> Split AC</div>
                     <div class="ac-chip"><i class="fas fa-th"></i> Cassette AC</div>
                 </div>
-
-                <picture>
-                    <source srcset="/images/services/ac-service.webp" type="image/webp">
-                    <img
-                        src="/images/services/ac-service.jpg"
-                        alt="AC servicing technician deep cleaning indoor unit in Delhi NCR — EZAC Service"
-                        class="service-detail-img"
-                        loading="lazy"
-                        width="600" height="338"
-                    >
-                </picture>
             </div>
 
             <!-- Right: Booking Card -->
@@ -222,7 +211,7 @@ include 'partials/navbar.php';
                     Is your AC not cooling? Making noise? Leaking water? Our certified
                     AC repair technicians diagnose and fix all types of faults — from
                     minor issues to major PCB or compressor failures — for both
-                    window ACs and split ACs of all brands across Delhi NCR.
+                    window ACs and split ACs of all brands.
                 </p>
 
                 <ul class="service-checklist">
@@ -235,17 +224,6 @@ include 'partials/navbar.php';
                     <li><i class="fas fa-check-circle"></i> All electrical faults inside AC</li>
                     <li><i class="fas fa-check-circle"></i> Genuine spare parts used</li>
                 </ul>
-
-                <picture>
-                    <source srcset="/images/services/ac-repair.webp" type="image/webp">
-                    <img
-                        src="/images/services/ac-repair.jpg"
-                        alt="AC repair technician diagnosing fault on split AC unit in Delhi NCR — EZAC Service"
-                        class="service-detail-img"
-                        loading="lazy"
-                        width="600" height="338"
-                    >
-                </picture>
 
                 <div class="warranty-strip">
                     <i class="fas fa-bolt"></i>
@@ -314,17 +292,6 @@ include 'partials/navbar.php';
                         <div class="gas-desc">Inverter ACs</div>
                     </div>
                 </div>
-
-                <picture>
-                    <source srcset="/images/services/ac-gas-refill.webp" type="image/webp">
-                    <img
-                        src="/images/services/ac-gas-refill.jpg"
-                        alt="AC gas refilling with refrigerant pressure gauge in Delhi NCR — EZAC Service"
-                        class="service-detail-img"
-                        loading="lazy"
-                        width="600" height="338"
-                    >
-                </picture>
             </div>
 
             <!-- Right: Booking Card -->
@@ -393,7 +360,7 @@ include 'partials/navbar.php';
                         <a href="/book.php?service=ac-installation" class="btn btn-primary btn-block">
                             <i class="fas fa-calendar-check"></i> Book Installation
                         </a>
-                        <a href="tel:+917827464409" class="btn btn-outline btn-block" style="margin-top:10px">
+                        <a href="tel:+918003001234" class="btn btn-outline btn-block" style="margin-top:10px">
                             <i class="fas fa-phone"></i> Call for Free Consultation
                         </a>
                     </div>
@@ -440,17 +407,6 @@ include 'partials/navbar.php';
                     <li><i class="fas fa-check-circle"></i> Full demo of remote &amp; features</li>
                     <li><i class="fas fa-check-circle"></i> Site cleanup after installation</li>
                 </ul>
-
-                <picture>
-                    <source srcset="/images/services/ac-installation.webp" type="image/webp">
-                    <img
-                        src="/images/services/ac-installation.jpg"
-                        alt="Certified technician installing split AC unit in Delhi NCR — EZAC Service"
-                        class="service-detail-img"
-                        loading="lazy"
-                        width="600" height="338"
-                    >
-                </picture>
 
                 <!-- AC Shift / Reinstall note -->
                 <div class="warranty-strip">
@@ -896,18 +852,6 @@ include 'partials/navbar.php';
     .install-include i {
         color: var(--green);
         font-size: 12px;
-    }
-
-    /* Service detail image */
-    .service-detail-img {
-        width: 100%;
-        border-radius: var(--radius-lg);
-        margin-top: var(--space-24);
-        object-fit: cover;
-        aspect-ratio: 16 / 9;
-        display: block;
-        border: 1.5px solid var(--gray-200);
-        box-shadow: 0 4px 16px rgba(0,0,0,0.07);
     }
 
     /* Section Divider */
