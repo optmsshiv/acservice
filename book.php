@@ -698,54 +698,207 @@ include 'partials/navbar.php';
     color: var(--gray-500);
   }
 
-  /* ── RESPONSIVE ── */
+  /* ══════════════════════════════════════════
+     RESPONSIVE — ALL BREAKPOINTS
+  ════════════════════════════════════════════ */
+
+  /* ── TABLET (max 1024px) ── */
   @media (max-width: 1024px) {
+
+    /* Stack layout: form on top, sidebar below */
     .booking-layout {
       grid-template-columns: 1fr;
+      gap: var(--space-24);
     }
 
+    /* Sidebar: 2-col grid below form */
     .booking-sidebar {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: var(--space-16);
     }
 
+    /* Review card spans full width */
     .sidebar-review-card {
       grid-column: 1 / -1;
     }
-  }
 
-  @media (max-width: 768px) {
+    /* Hero: side by side still OK on tablet */
     .book-hero-inner {
-      flex-direction: column;
+      gap: var(--space-24);
     }
 
+    /* Trust badges: row on tablet */
     .book-hero-trust {
       flex-direction: row;
       flex-wrap: wrap;
     }
-
     .bht-item {
       flex: 1;
-      min-width: 140px;
-    }
-
-    .booking-sidebar {
-      grid-template-columns: 1fr;
-    }
-
-    .service-selector-grid {
-      grid-template-columns: 1fr;
+      min-width: 160px;
+      white-space: normal;
     }
   }
 
-  @media (max-width: 480px) {
+  /* ── LARGE MOBILE (max 768px) ── */
+  @media (max-width: 768px) {
+
+    /* Hero: stack vertically */
+    .book-hero { padding: 36px 0; }
+    .book-hero-inner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-20);
+    }
+    .book-hero-inner h1 { font-size: 26px; }
+    .book-hero-inner p  { font-size: 14px; }
+
+    /* Trust badges: 2 per row */
+    .book-hero-trust {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-8);
+      width: 100%;
+    }
     .bht-item {
-      min-width: 100%;
+      min-width: unset;
+      flex: unset;
+      padding: 10px 12px;
+      font-size: 12px;
+      white-space: normal;
+      text-align: center;
+      flex-direction: column;
+      gap: 4px;
+      justify-content: center;
+    }
+    .bht-item i { font-size: 18px; }
+
+    /* Form card: tighter padding */
+    .form-card {
+      padding: var(--space-24) var(--space-20);
+      border-radius: var(--radius-lg);
     }
 
-    .book-hero-inner h1 {
-      font-size: 26px;
+    /* All form-row → single column */
+    .form-row,
+    .form-row-3 {
+      grid-template-columns: 1fr;
+      gap: var(--space-12);
     }
+
+    /* Service selector: 1 column */
+    .service-selector-grid {
+      grid-template-columns: 1fr;
+      gap: var(--space-8);
+    }
+
+    /* Service selector card: compact horizontal */
+    .service-selector-card {
+      padding: 12px 14px;
+    }
+    .ssc-icon {
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      font-size: 15px;
+    }
+    .ssc-text strong { font-size: 13px; }
+    .ssc-text span   { font-size: 11px; }
+
+    /* Sidebar: single column */
+    .booking-sidebar {
+      grid-template-columns: 1fr;
+    }
+    .sidebar-review-card { grid-column: auto; }
+
+    /* Submit button: normal size on mobile */
+    #bookSubmitBtn {
+      padding: 14px 20px;
+      font-size: 15px;
+    }
+
+    /* Section title smaller */
+    .form-section-title {
+      font-size: 15px;
+    }
+  }
+
+  /* ── SMALL MOBILE (max 480px) ── */
+  @media (max-width: 480px) {
+
+    /* Trust badges: stack fully */
+    .book-hero-trust {
+      grid-template-columns: 1fr;
+    }
+    .bht-item {
+      flex-direction: row;
+      text-align: left;
+      gap: var(--space-10, 10px);
+    }
+
+    /* Form card: minimum padding */
+    .form-card {
+      padding: var(--space-20) var(--space-16);
+      border-radius: var(--radius-md);
+    }
+
+    /* Inputs: larger touch targets */
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    select,
+    textarea {
+      padding: 13px 14px;
+      font-size: 16px; /* prevents iOS zoom */
+    }
+    .input-group input { padding-left: 40px; }
+    .input-group .input-icon { font-size: 14px; left: 12px; }
+
+    /* Service cards: more compact */
+    .service-selector-card { padding: 11px 12px; gap: 10px; }
+
+    /* Sidebar cards: tighter */
+    .sidebar-card { padding: var(--space-20) var(--space-16); }
+
+    /* Submit button */
+    #bookSubmitBtn {
+      padding: 14px 16px;
+      font-size: 14px;
+      border-radius: var(--radius-md);
+    }
+
+    /* Hero */
+    .book-hero { padding: 28px 0; }
+    .book-hero-inner h1 { font-size: 22px; }
+
+    /* Section number circle */
+    .form-section-num {
+      width: 24px;
+      height: 24px;
+      font-size: 12px;
+    }
+    .form-section-title { font-size: 14px; gap: 8px; }
+
+    /* Form check label */
+    .form-check-label { font-size: 13px; }
+  }
+
+  /* ── VERY SMALL (max 360px — older Android) ── */
+  @media (max-width: 360px) {
+
+    .form-card { padding: 16px 14px; }
+
+    .book-hero-inner h1 { font-size: 20px; }
+
+    .service-selector-card { padding: 10px; gap: 8px; }
+    .ssc-icon { width: 32px; height: 32px; min-width: 32px; font-size: 13px; }
+    .ssc-text strong { font-size: 12px; }
+    .ssc-text span   { display: none; } /* hide subtitle on tiny screens */
+
+    #bookSubmitBtn { font-size: 13px; padding: 13px 12px; }
+
+    .sidebar-card { padding: 16px 14px; }
+    .sidebar-card-title { font-size: 14px; }
   }
 </style>
