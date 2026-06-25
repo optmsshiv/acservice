@@ -103,20 +103,8 @@ include 'partials/navbar.php';
 
         <div class="story-highlights">
           <div class="story-highlight">
-            <i class="fas fa-map-marker-alt"></i>
-            <span>Founded in Delhi NCR — 2015</span>
-          </div>
-          <div class="story-highlight">
             <i class="fas fa-city"></i>
             <span>Serving Delhi, Noida, Gurgaon, Faridabad &amp; more</span>
-          </div>
-          <div class="story-highlight">
-            <i class="fas fa-certificate"></i>
-            <span>GST registered &amp; ISO 9001-aligned</span>
-          </div>
-          <div class="story-highlight">
-            <i class="fas fa-shield-alt"></i>
-            <span>Fully insured, background-verified team</span>
           </div>
         </div>
       </div>
@@ -140,8 +128,7 @@ include 'partials/navbar.php';
           <div class="story-visual-author">
             <div class="avatar" style="background:rgba(255,255,255,0.2);color:#fff">AK</div>
             <div>
-              <strong>Ajay Kumar</strong>
-              <span>Founder &amp; CEO, EZAC Service</span>
+              <strong>EZAC Service</strong>
             </div>
           </div>
         </div>
